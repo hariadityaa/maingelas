@@ -70,37 +70,37 @@ conditions = [
     "has a pet", "has been to another country", "is wearing socks",
     "has a sibling", "has kissed someone in this room", "has cried this week",
     "has a tattoo", "has broken a bone", "has sung karaoke",
-    "has a piercing other than ears", "believes in aliens", "has ghosted someone",
+    "has a piercing other than ears", "has ghosted someone",
     "has stalked an ex on social media this month", "has fallen asleep in public",
     "has lied to get out of plans", "has a crush on someone in this room",
     "has laughed at something inappropriate", "owns more than three plants",
     "has sent a text to the wrong person", "has pretended to be sick to skip work or school",
-    "has a nickname they hate", "has been dumped over text", "has stolen something small",
+    "has been dumped over text", "has stolen something small",
     "has cried during a movie", "has forgotten someone's name right after meeting them",
     "has sung in the shower today", "has a savings account under $100",
     "has never been on a plane", "has read a book for fun this year",
     "has more than 5 unread emails right now", "is the oldest sibling",
-    "is the youngest sibling", "has an only child", "has bitten their nails this week",
+    "is the youngest sibling", "is an only child", "has bitten their nails this week",
     "has snooped through a partner's phone", "has left a party without saying bye",
     "has danced in front of a mirror", "has talked to a pet like it's a person",
     "has pretended to know a song they didn't", "has googled themselves",
-    "has a food they refuse to try", "has fallen down stairs",
+    "has fallen down stairs",
     "has walked into a glass door", "has texted an ex recently",
     "has more than 3 apps for dating", "has cheated on a test",
     "has skipped a class or meeting to nap", "has cried happy tears this year",
-    "has a celebrity crush everyone knows about", "has been on a reality TV show application",
-    "has laughed so hard they cried", "has a secret talent nobody here knows about",
+    "has been on a reality TV show application",
+    "has laughed so hard they cried",
     "has never had a broken heart", "has more than 10 unread texts right now",
-    "has slept through an alarm for something important", "has a weird phobia",
+    "has slept through an alarm for something important",
     "has been called their parent's name by accident", "has pretended to like a gift",
     "has drunk-texted someone", "has snorted while laughing",
-    "has a scar with a good story", "has been the last one picked for a team",
+    "has been the last one picked for a team",
     "has sung happy birthday off-key on purpose", "has cancelled plans to stay in",
-    "has a guilty pleasure TV show", "has taken a selfie in the last hour",
+    "has taken a selfie in the last hour",
     "has bought something just because it was on sale", "has forgotten their own phone number",
     "has cried during a Pixar movie", "has more than one email address",
-    "has a playlist named after a person", "has pretended to be busy to avoid someone",
-    "has never broken a bone", "has a hidden talent for impressions",
+    "has pretended to be busy to avoid someone",
+    "has never broken a bone",
     "has laughed at their own joke before finishing it",
 ]
 group_templates = [
@@ -115,6 +115,28 @@ for i, cond in enumerate(conditions):
         s = "s" if n != 1 else ""
         t = group_templates[(i + j) % len(group_templates)]
         add(t.format(cond=cond, n=n, s=s), "group")
+
+# ---------------------------------------------------------------------------
+# 2b. Share & vote rounds — everyone reveals something, group votes, the
+# winner (most votes) drinks. Reserved for prompts that are genuinely
+# personal/subjective; plain yes-or-no facts stay in the group section above.
+# ---------------------------------------------------------------------------
+vote_prompts = [
+    ("says their weirdest phobia", "the weirdest one"),
+    ("shares a nickname they hate", "the worst one"),
+    ("shares a food they refuse to try", "the weirdest"),
+    ("shares their most obvious celebrity crush", "the most surprising"),
+    ("reveals a secret talent", "the most useless"),
+    ("tells the story behind a scar", "the best story"),
+    ("shares a guilty pleasure TV show", "the most embarrassing"),
+    ("does 3 seconds of an impression", "the worst one"),
+    ("shares a playlist name they've made", "the funniest"),
+    ("shares a conspiracy theory they secretly believe", "the wildest"),
+]
+for share, adj in vote_prompts:
+    for n in [1, 2]:
+        s = "s" if n != 1 else ""
+        add(f"Everyone {share}. Vote for {adj}. Most votes drinks {n} sip{s}.", "vote")
 
 # ---------------------------------------------------------------------------
 # 3. "Name a ___, last person drinks" category rounds
@@ -138,13 +160,13 @@ categories_list = [
     "children's cartoon", "type of tea", "gym exercise", "type of key on a keyboard",
 ]
 category_templates = [
-    "Name a {cat}. Go around the group — first to repeat or hesitate drinks.",
-    "Everyone names a {cat} in turn. Last person to answer drinks 2 sips.",
-    "Category round: {cat}. First person who can't think of one drinks 3 sips.",
+    "{{player}} starts. Name a {cat}. Go around the group — first to repeat or hesitate drinks.",
+    "{{player}} goes first. Everyone names a {cat} in turn. Last person to answer drinks 2 sips.",
+    "Category round: {cat}. {{player}} starts. First person who can't think of one drinks 3 sips.",
 ]
 for cat in categories_list:
     for t in category_templates:
-        add(t.format(cat=cat), "category")
+        add(t.format(cat=cat), "category", 1)
 
 # ---------------------------------------------------------------------------
 # 4. Never have I ever
@@ -247,7 +269,7 @@ dares = [
     "Do your best robot dance for 10 seconds.",
     "Tell a joke. If nobody laughs, drink 2 sips.",
     "Balance a cup on your head for 15 seconds.",
-    "Let the group choose your nickname for the rest of the game.",
+    "Let the group choose your nickname for the next 15 minutes.",
     "Do an interpretive dance of the last movie you watched.",
     "Speak only in questions until your next turn.",
     "Show the group the last photo in your camera roll.",
@@ -274,7 +296,7 @@ dares = [
     "Share your most-used app this week.",
     "Say the alphabet while patting your head and rubbing your stomach.",
     "Do your best beatbox for 10 seconds.",
-    "Let the group rename you for the rest of the game.",
+    "Let the group rename you for the next 15 minutes.",
     "Try to whistle a tune for the group to guess.",
     "Share your most played song this month.",
     "Do your best impression of a baby.",
@@ -348,43 +370,43 @@ for d in dares:
 # 6. Make-a-rule cards
 # ---------------------------------------------------------------------------
 rules = [
-    "No pointing with your left hand for the rest of the game.",
-    "Everyone must say 'cheers' before drinking for the rest of the game.",
+    "No pointing with your left hand for the next 15 minutes.",
+    "Everyone must say 'cheers' before drinking for the next 15 minutes.",
     "No saying anyone's real name until your next turn — use nicknames only.",
     "Every sentence must end with 'friend' until your next turn.",
     "No crossing your legs for the rest of the round.",
-    "Everyone must drink with their non-dominant hand for the rest of the game.",
-    "No one can say 'drink' out loud for the rest of the game.",
+    "Everyone must drink with their non-dominant hand for the next 15 minutes.",
+    "No one can say 'drink' out loud for the next 15 minutes.",
     "Everyone must clink cups before every sip from now on.",
     "No phones on the table for the rest of the round — first to break it drinks.",
-    "Everyone must raise their pinky when drinking for the rest of the game.",
+    "Everyone must raise their pinky when drinking for the next 15 minutes.",
     "No saying 'I' — say your own name instead, until your next turn.",
     "Everyone must stand up before they drink for the rest of the round.",
     "No laughing allowed for the next 2 minutes — first to laugh drinks.",
     "Everyone must whisper for the rest of the round.",
-    "No one can use first names for the rest of the game — nicknames only.",
+    "No one can use first names for the next 15 minutes — nicknames only.",
     "Everyone has to end questions with 'if you please' until your next turn.",
     "No pointing at the group with fingers — elbows only, for the rest of the round.",
-    "Everyone must toast the group before drinking for the rest of the game.",
+    "Everyone must toast the group before drinking for the next 15 minutes.",
     "No saying 'yes' or 'no' — find another way, until your next turn.",
-    "Everyone has to drink left-handed for the rest of the game.",
-    "Everyone must give a toast title to every round for the rest of the game.",
+    "Everyone has to drink left-handed for the next 15 minutes.",
+    "Everyone must give a toast title to every round for the next 15 minutes.",
     "No one may say 'okay' for the rest of the round.",
-    "Everyone must knock on the table twice before drinking, for the rest of the game.",
+    "Everyone must knock on the table twice before drinking, for the next 15 minutes.",
     "No sitting down for the rest of the round — everyone stands.",
     "Everyone must high-five the group before drinking, for the rest of the round.",
     "No using phones for the rest of the round.",
     "Everyone must speak one octave higher for the rest of the round.",
-    "No repeating a sip count out loud — mime it instead, for the rest of the game.",
+    "No repeating a sip count out loud — mime it instead, for the next 15 minutes.",
     "Everyone must hold their cup with both hands for the rest of the round.",
-    "No saying 'drink' or 'sip' — invent a new word for it, for the rest of the game.",
+    "No saying 'drink' or 'sip' — invent a new word for it, for the next 15 minutes.",
     "Everyone must wink before their turn for the rest of the round.",
     "No leaning back in your chair for the rest of the round.",
-    "Everyone must count their sips out loud for the rest of the game.",
+    "Everyone must count their sips out loud for the next 15 minutes.",
     "No using anyone's name — point and describe them instead, for the rest of the round.",
-    "Everyone must applaud after every card is read, for the rest of the game.",
+    "Everyone must applaud after every card is read, for the next 15 minutes.",
     "No touching your face for the rest of the round.",
-    "Everyone must say the previous player's drink order before their turn, for the rest of the game.",
+    "Everyone must say the previous player's drink order before their turn, for the next 15 minutes.",
     "No crossing your arms for the rest of the round.",
     "Everyone must end every sentence with 'no cap' for the rest of the round.",
     "No standing during your turn for the rest of the round — sit only.",

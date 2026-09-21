@@ -13,11 +13,15 @@
     dare: { label: "Dare", color: "var(--cat-dare)" },
     special: { label: "Special", color: "var(--cat-special)" },
     versus: { label: "Versus", color: "var(--cat-versus)" },
+    vote: { label: "Vote", color: "var(--cat-vote)" },
   };
+
+  const ROUND_SIZE = 50;
 
   const screens = {
     setup: document.getElementById("screen-setup"),
     game: document.getElementById("screen-game"),
+    roundEnd: document.getElementById("screen-round-end"),
     end: document.getElementById("screen-end"),
   };
 
@@ -38,11 +42,16 @@
   const reshuffleBtn = document.getElementById("reshuffle-btn");
   const backToSetupBtn = document.getElementById("back-to-setup-btn");
 
+  const roundEndTitle = document.getElementById("round-end-title");
+  const roundEndTagline = document.getElementById("round-end-tagline");
+  const nextRoundBtn = document.getElementById("next-round-btn");
+
   /** @type {string[]} */
   let players = [];
   let deck = [];
   let deckIndex = -1;
   let lastUsedPlayer = null;
+  let roundEndPending = false;
 
   function showScreen(name) {
     Object.values(screens).forEach((s) => s.classList.remove("active"));
@@ -165,10 +174,15 @@
     return result;
   }
 
+  function totalRounds() {
+    return Math.ceil(deck.length / ROUND_SIZE);
+  }
+
   function startGame() {
     deck = shuffle(PICOLO_QUESTIONS);
     deckIndex = -1;
     lastUsedPlayer = null;
+    roundEndPending = false;
     updateProgress();
     cardCategoryEl.textContent = "READY";
     cardEl.style.setProperty("--card-color", "var(--accent-2)");
@@ -178,11 +192,13 @@
   }
 
   function updateProgress() {
-    const total = deck.length;
     const dealt = deckIndex + 1;
-    const pct = total ? Math.min(100, (dealt / total) * 100) : 0;
+    const cardInRound = dealt === 0 ? 0 : ((dealt - 1) % ROUND_SIZE) + 1;
+    const roundNum = dealt === 0 ? 1 : Math.floor((dealt - 1) / ROUND_SIZE) + 1;
+    const pct = dealt === 0 ? 0 : (cardInRound / ROUND_SIZE) * 100;
     progressFill.style.width = pct + "%";
-    deckCountEl.textContent = Math.max(total - dealt, 0) + " left";
+    deckCountEl.textContent =
+      "Round " + roundNum + "/" + totalRounds() + " · " + (ROUND_SIZE - cardInRound) + " left";
   }
 
   function dealNext() {
@@ -207,9 +223,34 @@
     cardEl.classList.add("deal-in");
 
     updateProgress();
+
+    const dealt = deckIndex + 1;
+    const isRoundBoundary = dealt % ROUND_SIZE === 0;
+    const isLastCard = dealt >= deck.length;
+    roundEndPending = isRoundBoundary && !isLastCard;
   }
 
-  nextBtn.addEventListener("click", dealNext);
+  function showRoundEndScreen() {
+    const roundNum = Math.floor(deckIndex / ROUND_SIZE) + 1;
+    roundEndTitle.textContent = "Round " + roundNum + " Done";
+    roundEndTagline.textContent = ROUND_SIZE + " questions down. Refill your drinks.";
+    nextRoundBtn.textContent = "Start Round " + (roundNum + 1);
+    showScreen("roundEnd");
+  }
+
+  nextBtn.addEventListener("click", () => {
+    if (roundEndPending) {
+      roundEndPending = false;
+      showRoundEndScreen();
+      return;
+    }
+    dealNext();
+  });
+
+  nextRoundBtn.addEventListener("click", () => {
+    showScreen("game");
+    dealNext();
+  });
 
   menuBtn.addEventListener("click", () => {
     showScreen("setup");
