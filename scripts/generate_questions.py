@@ -20,15 +20,16 @@ def add(text, category, players=0):
 # 1. Straight sip actions
 # ---------------------------------------------------------------------------
 sip_solo_templates = [
-    "Take {n} sip{s}.",
-    "Take {n} sip{s}, no questions asked.",
-    "Finish {n} sip{s} in a row without stopping.",
-    "Take {n} sip{s} and stare at the ceiling while you do it.",
+    "{player}, take {n} sip{s}.",
+    "{player}, take {n} sip{s}, no questions asked.",
+    "{player}, finish {n} sip{s} in a row without stopping.",
+    "{player}, take {n} sip{s} and stare at the ceiling while you do it.",
 ]
 for n in [1, 2, 3, 4]:
     s = "s" if n != 1 else ""
     for t in sip_solo_templates:
-        add(t.format(n=n, s=s), "drink")
+        text = t.replace("{n}", str(n)).replace("{s}", s)
+        add(text, "drink", 1)
 
 give_templates = [
     "Give %n sip%s to {player}.",
@@ -341,7 +342,7 @@ dares = [
     "Do your best impression of a substitute teacher taking attendance.",
 ]
 for d in dares:
-    add(d, "dare")
+    add("{player}: " + d, "dare", 1)
 
 # ---------------------------------------------------------------------------
 # 6. Make-a-rule cards
@@ -389,15 +390,15 @@ rules = [
     "No standing during your turn for the rest of the round — sit only.",
 ]
 for r in rules:
-    add(f"New rule: {r} Whoever breaks it drinks.", "rule")
+    add(f"{{player}} makes a new rule: {r} Whoever breaks it drinks.", "rule", 1)
 
 # ---------------------------------------------------------------------------
 # 7. Special mechanic cards
 # ---------------------------------------------------------------------------
 specials = [
     "Waterfall: the reader starts drinking, then each person in turn starts. No one can stop until the person before them stops.",
-    "Thumb Master: at any point, put your thumb on the table. Last person to copy you drinks 2 sips. Stays in effect until someone else draws this card.",
-    "Question Master: until your next turn, if anyone answers a question you ask, they drink 2 sips.",
+    "{player} is the Thumb Master: at any point, they put their thumb on the table. Last person to copy them drinks 2 sips. Stays in effect until someone else draws this card.",
+    "{player} is the Question Master: until their next turn, if anyone answers a question they ask, they drink 2 sips.",
     "Categories: pick a topic and go around the group naming things in it. First to repeat or blank drinks.",
     "Rhyme Time: pick a word. Go around the group rhyming with it. First to fail drinks.",
     "Bust a Move: everyone must dance for 10 seconds. Last one dancing drinks.",
@@ -417,7 +418,8 @@ specials = [
     "Time Out: pause the game for 30 seconds. Whoever talks first drinks 2 sips.",
 ]
 for sp in specials:
-    add(sp, "special")
+    players = 1 if "{player}" in sp else 0
+    add(sp, "special", players)
 
 # ---------------------------------------------------------------------------
 # 8. Two-player prompts

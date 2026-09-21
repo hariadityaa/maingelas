@@ -27,9 +27,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Make up a two-line rap about the person to your left.",
+    "text": "{player}: Make up a two-line rap about the person to your left.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Make eye contact with {player} for 10 seconds without laughing, or drink 2 sips.",
@@ -37,9 +37,9 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "New rule: Everyone must speak one octave higher for the rest of the round. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must speak one octave higher for the rest of the round. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Name a movie. Go around the group — first to repeat or hesitate drinks.",
@@ -47,14 +47,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Try to name every player's middle name — 2 sips per one you miss.",
+    "text": "{player}: Try to name every player's middle name — 2 sips per one you miss.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "New rule: Everyone must raise their pinky when drinking for the rest of the game. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must raise their pinky when drinking for the rest of the game. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Category round: emoji. First person who can't think of one drinks 3 sips.",
@@ -132,9 +132,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: Everyone must knock on the table twice before drinking, for the rest of the game. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must knock on the table twice before drinking, for the rest of the game. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has googled themselves takes 3 sips.",
@@ -147,9 +147,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Wear something backwards for the next round.",
+    "text": "{player}: Wear something backwards for the next round.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Name a cocktail. Go around the group — first to repeat or hesitate drinks.",
@@ -157,9 +157,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best impression of a weather reporter mid-storm.",
+    "text": "{player}: Do your best impression of a weather reporter mid-storm.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Everyone who has skipped a class or meeting to nap drinks 3 sips.",
@@ -187,9 +187,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best beatbox for 10 seconds.",
+    "text": "{player}: Do your best beatbox for 10 seconds.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever gone on a blind date. Everyone who has, drinks 2 sips.",
@@ -207,9 +207,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: No saying 'I' — say your own name instead, until your next turn. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No saying 'I' — say your own name instead, until your next turn. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has an only child drinks 3 sips.",
@@ -232,9 +232,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do 5 push-ups or drink 3 sips.",
+    "text": "{player}: Do 5 push-ups or drink 3 sips.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Distribute 3 sips however you like among the group.",
@@ -252,9 +252,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best impression of an announcer at a sports game.",
+    "text": "{player}: Do your best impression of an announcer at a sports game.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever faked an illness to avoid a date. If you have, take 3 sips.",
@@ -287,9 +287,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: No pointing with your left hand for the rest of the game. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No pointing with your left hand for the rest of the game. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "{player} vs {player2} — who is more likely to cry during a movie? Group votes, loser drinks 3 sips.",
@@ -297,9 +297,9 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Let the group scroll your camera roll for 10 seconds.",
+    "text": "{player}: Let the group scroll your camera roll for 10 seconds.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever snuck into a movie without paying. If you have, take 3 sips.",
@@ -337,9 +337,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best impression of a Shakespearean actor for your next sentence.",
+    "text": "{player}: Do your best impression of a Shakespearean actor for your next sentence.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever been the reason a party ended early. If you have, take 3 sips.",
@@ -382,9 +382,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do an impression of another player until someone guesses who.",
+    "text": "{player}: Do an impression of another player until someone guesses who.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever fallen asleep at work. If you have, take 3 sips.",
@@ -402,9 +402,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Try to stack 3 cups into a pyramid one-handed in 15 seconds.",
+    "text": "{player}: Try to stack 3 cups into a pyramid one-handed in 15 seconds.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has left a party without saying bye takes 1 sip.",
@@ -422,9 +422,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Freeze in place until your next turn, or drink 3 sips.",
+    "text": "{player}: Freeze in place until your next turn, or drink 3 sips.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Everyone who has a piercing other than ears drinks 1 sip.",
@@ -437,9 +437,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Balance a cup on your head for 15 seconds.",
+    "text": "{player}: Balance a cup on your head for 15 seconds.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Everyone names a type of key on a keyboard in turn. Last person to answer drinks 2 sips.",
@@ -447,9 +447,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Take 2 sips, no questions asked.",
+    "text": "{player}, take 2 sips, no questions asked.",
     "category": "drink",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Everyone names a cereal brand in turn. Last person to answer drinks 2 sips.",
@@ -462,9 +462,9 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Share the most awkward first date you've been on.",
+    "text": "{player}: Share the most awkward first date you've been on.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever gone through with a plan I regretted the whole time. If you have, take 3 sips.",
@@ -472,9 +472,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Take 1 sip, no questions asked.",
+    "text": "{player}, take 1 sip, no questions asked.",
     "category": "drink",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Give 5 sips to {player} and tell them why they deserve it.",
@@ -522,9 +522,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Share a hobby you wish you had time for.",
+    "text": "{player}: Share a hobby you wish you had time for.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Category round: 2000s song. First person who can't think of one drinks 3 sips.",
@@ -537,9 +537,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best villain laugh.",
+    "text": "{player}: Do your best villain laugh.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has a hidden talent for impressions drinks 2 sips.",
@@ -572,9 +572,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best impression of a toddler having a tantrum.",
+    "text": "{player}: Do your best impression of a toddler having a tantrum.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever left the house with mismatched shoes. If you have, take 3 sips.",
@@ -597,9 +597,9 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Share the last white lie you told a friend.",
+    "text": "{player}: Share the last white lie you told a friend.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Category round: type of tree. First person who can't think of one drinks 3 sips.",
@@ -627,9 +627,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Share your most-used text abbreviation.",
+    "text": "{player}: Share your most-used text abbreviation.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Give 5 sips to {player}.",
@@ -642,9 +642,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: Everyone must high-five the group before drinking, for the rest of the round. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must high-five the group before drinking, for the rest of the round. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has a scar with a good story takes 3 sips.",
@@ -682,9 +682,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: Everyone must stand up before they drink for the rest of the round. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must stand up before they drink for the rest of the round. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has a pet drinks 2 sips.",
@@ -702,9 +702,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Take 2 sips.",
+    "text": "{player}, take 2 sips.",
     "category": "drink",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Category round: type of weather. First person who can't think of one drinks 3 sips.",
@@ -727,9 +727,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best dramatic movie trailer voice-over for this room.",
+    "text": "{player}: Do your best dramatic movie trailer voice-over for this room.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Everyone names a swear word in turn. Last person to answer drinks 2 sips.",
@@ -752,9 +752,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Share your most played song this month.",
+    "text": "{player}: Share your most played song this month.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has laughed at their own joke before finishing it takes 2 sips.",
@@ -802,19 +802,19 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Tell the group about a time you got in trouble as a kid.",
+    "text": "{player}: Tell the group about a time you got in trouble as a kid.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "New rule: Everyone must applaud after every card is read, for the rest of the game. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must applaud after every card is read, for the rest of the game. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "New rule: No touching your face for the rest of the round. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No touching your face for the rest of the round. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever hooked up with a friend's sibling. If you have, take 3 sips.",
@@ -827,9 +827,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: Everyone must toast the group before drinking for the rest of the game. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must toast the group before drinking for the rest of the game. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever laughed at a funeral by accident. Everyone who has, drinks 2 sips.",
@@ -842,9 +842,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best impression of a celebrity until your next turn.",
+    "text": "{player}: Do your best impression of a celebrity until your next turn.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Name a cartoon character. Go around the group — first to repeat or hesitate drinks.",
@@ -892,9 +892,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: No saying anyone's real name until your next turn — use nicknames only. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No saying anyone's real name until your next turn — use nicknames only. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has bitten their nails this week takes 3 sips.",
@@ -927,9 +927,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Try to recite your phone number backwards.",
+    "text": "{player}: Try to recite your phone number backwards.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Category round: school subject. First person who can't think of one drinks 3 sips.",
@@ -957,14 +957,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best impression of the person to your right.",
+    "text": "{player}: Do your best impression of the person to your right.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Give a 15 second motivational speech to the group.",
+    "text": "{player}: Give a 15 second motivational speech to the group.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Name a celebrity. Go around the group — first to repeat or hesitate drinks.",
@@ -992,9 +992,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Share the last thing you searched online (keep it clean).",
+    "text": "{player}: Share the last thing you searched online (keep it clean).",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever stayed friends with someone I probably shouldn't have. Everyone who has, drinks 2 sips.",
@@ -1022,9 +1022,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Let someone draw a small doodle on your hand.",
+    "text": "{player}: Let someone draw a small doodle on your hand.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has cried during a Pixar movie takes 1 sip.",
@@ -1062,9 +1062,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Text the last person you called and tell them a random fun fact.",
+    "text": "{player}: Text the last person you called and tell them a random fun fact.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "The group decides: {player} or {player2}, who tells the funniest jokes? Loser drinks 2 sips.",
@@ -1082,9 +1082,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best impression of a diva storming off stage.",
+    "text": "{player}: Do your best impression of a diva storming off stage.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Category round: sport. First person who can't think of one drinks 3 sips.",
@@ -1107,9 +1107,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best runway walk across the room.",
+    "text": "{player}: Do your best runway walk across the room.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Category round: type of alcohol. First person who can't think of one drinks 3 sips.",
@@ -1212,9 +1212,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Let the group choose your nickname for the rest of the game.",
+    "text": "{player}: Let the group choose your nickname for the rest of the game.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Give 3 sips to the person on your left.",
@@ -1252,9 +1252,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Try to juggle two objects from the table for 10 seconds.",
+    "text": "{player}: Try to juggle two objects from the table for 10 seconds.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has more than one email address takes 3 sips.",
@@ -1302,9 +1302,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best slow clap for the person to your right.",
+    "text": "{player}: Do your best slow clap for the person to your right.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has taken a selfie in the last hour takes 2 sips.",
@@ -1357,14 +1357,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best impression of a nature documentary narrator describing this room.",
+    "text": "{player}: Do your best impression of a nature documentary narrator describing this room.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Share the most overrated movie you've ever watched.",
+    "text": "{player}: Share the most overrated movie you've ever watched.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has sent a text to the wrong person takes 3 sips.",
@@ -1377,9 +1377,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Share the most useless talent you have.",
+    "text": "{player}: Share the most useless talent you have.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has been called their parent's name by accident takes 2 sips.",
@@ -1402,9 +1402,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Tell the group the most-used emoji in your recent texts.",
+    "text": "{player}: Tell the group the most-used emoji in your recent texts.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Name a type of dance. Go around the group — first to repeat or hesitate drinks.",
@@ -1417,9 +1417,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: No one can use first names for the rest of the game — nicknames only. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No one can use first names for the rest of the game — nicknames only. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Category round: superhero. First person who can't think of one drinks 3 sips.",
@@ -1427,9 +1427,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Tell the group about your first celebrity crush.",
+    "text": "{player}: Tell the group about your first celebrity crush.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has cheated on a test drinks 2 sips.",
@@ -1447,9 +1447,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: No repeating a sip count out loud — mime it instead, for the rest of the game. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No repeating a sip count out loud — mime it instead, for the rest of the game. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has snorted while laughing drinks 3 sips.",
@@ -1467,9 +1467,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Take 4 sips, no questions asked.",
+    "text": "{player}, take 4 sips, no questions asked.",
     "category": "drink",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Name a type of hairstyle. Go around the group — first to repeat or hesitate drinks.",
@@ -1507,9 +1507,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Finish 4 sips in a row without stopping.",
+    "text": "{player}, finish 4 sips in a row without stopping.",
     "category": "drink",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Everyone who has a hidden talent for impressions drinks 3 sips.",
@@ -1552,19 +1552,19 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: Everyone must say 'cheers' before drinking for the rest of the game. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must say 'cheers' before drinking for the rest of the game. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Speak only in questions until your next turn.",
+    "text": "{player}: Speak only in questions until your next turn.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "New rule: Everyone must count their sips out loud for the rest of the game. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must count their sips out loud for the rest of the game. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who is the youngest sibling takes 2 sips.",
@@ -1587,14 +1587,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Let someone else answer your phone if it rings this round.",
+    "text": "{player}: Let someone else answer your phone if it rings this round.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Finish 3 sips in a row without stopping.",
+    "text": "{player}, finish 3 sips in a row without stopping.",
     "category": "drink",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has been the last one picked for a team drinks 1 sip.",
@@ -1612,9 +1612,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Try to say a tongue twister three times fast.",
+    "text": "{player}: Try to say a tongue twister three times fast.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Give 3 sips to whoever is closest to you.",
@@ -1667,14 +1667,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: Everyone must wink before their turn for the rest of the round. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must wink before their turn for the rest of the round. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Show the group the last photo in your camera roll.",
+    "text": "{player}: Show the group the last photo in your camera roll.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever eaten food off the floor. If you have, take 3 sips.",
@@ -1692,9 +1692,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best impression of someone waking up hungover.",
+    "text": "{player}: Do your best impression of someone waking up hungover.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Category round: type of jacket. First person who can't think of one drinks 3 sips.",
@@ -1757,9 +1757,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do a 10 second freestyle rap about drinking games.",
+    "text": "{player}: Do a 10 second freestyle rap about drinking games.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has forgotten their own phone number drinks 2 sips.",
@@ -1787,14 +1787,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: Everyone has to end questions with 'if you please' until your next turn. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone has to end questions with 'if you please' until your next turn. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Thumb Master: at any point, put your thumb on the table. Last person to copy you drinks 2 sips. Stays in effect until someone else draws this card.",
+    "text": "{player} is the Thumb Master: at any point, they put their thumb on the table. Last person to copy them drinks 2 sips. Stays in effect until someone else draws this card.",
     "category": "special",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Everyone names a musical instrument in turn. Last person to answer drinks 2 sips.",
@@ -1837,9 +1837,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Share a fun fact nobody in the room probably knows.",
+    "text": "{player}: Share a fun fact nobody in the room probably knows.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever had a really embarrassing autocorrect fail. If you have, take 3 sips.",
@@ -1867,19 +1867,19 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: Everyone must say the previous player's drink order before their turn, for the rest of the game. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must say the previous player's drink order before their turn, for the rest of the game. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Sing the chorus of a song the group picks for you.",
+    "text": "{player}: Sing the chorus of a song the group picks for you.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Try to draw your own face on a napkin in 15 seconds.",
+    "text": "{player}: Try to draw your own face on a napkin in 15 seconds.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has cheated on a test takes 3 sips.",
@@ -1892,9 +1892,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: Everyone must hold their cup with both hands for the rest of the round. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must hold their cup with both hands for the rest of the round. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has sung karaoke takes 2 sips.",
@@ -1902,14 +1902,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Try to whistle a tune for the group to guess.",
+    "text": "{player}: Try to whistle a tune for the group to guess.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Try to name 5 movies in 10 seconds.",
+    "text": "{player}: Try to name 5 movies in 10 seconds.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "{player} picks two people to do a shot / take 3 sips each.",
@@ -1917,9 +1917,9 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "New rule: Everyone has to drink left-handed for the rest of the game. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone has to drink left-handed for the rest of the game. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Rhyme Time: pick a word. Go around the group rhyming with it. First to fail drinks.",
@@ -1977,9 +1977,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: No laughing allowed for the next 2 minutes — first to laugh drinks. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No laughing allowed for the next 2 minutes — first to laugh drinks. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has googled themselves drinks 2 sips.",
@@ -2007,9 +2007,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Share the last concert or show you went to.",
+    "text": "{player}: Share the last concert or show you went to.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever owns more than three plants drinks 3 sips.",
@@ -2022,9 +2022,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Take 4 sips.",
+    "text": "{player}, take 4 sips.",
     "category": "drink",
-    "players": 0
+    "players": 1
   },
   {
     "text": "{player} vs {player2} — who would win in an arm wrestle? Group votes, loser drinks 3 sips.",
@@ -2082,9 +2082,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: Everyone must end every sentence with 'no cap' for the rest of the round. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must end every sentence with 'no cap' for the rest of the round. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has never had a broken heart drinks 1 sip.",
@@ -2132,9 +2132,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: No saying 'drink' or 'sip' — invent a new word for it, for the rest of the game. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No saying 'drink' or 'sip' — invent a new word for it, for the rest of the game. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever told a lie that spiraled out of control. Everyone who has, drinks 2 sips.",
@@ -2157,9 +2157,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: Everyone must whisper for the rest of the round. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must whisper for the rest of the round. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has never been on a plane drinks 2 sips.",
@@ -2177,9 +2177,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: No pointing at the group with fingers — elbows only, for the rest of the round. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No pointing at the group with fingers — elbows only, for the rest of the round. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Category round: winter activity. First person who can't think of one drinks 3 sips.",
@@ -2197,9 +2197,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Try to snap and whistle at the same time.",
+    "text": "{player}: Try to snap and whistle at the same time.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has sung in the shower today drinks 1 sip.",
@@ -2302,9 +2302,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Try to keep a straight face while everyone else makes funny faces at you for 10 seconds.",
+    "text": "{player}: Try to keep a straight face while everyone else makes funny faces at you for 10 seconds.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever been so drunk I forgot the night. Everyone who has, drinks 2 sips.",
@@ -2362,9 +2362,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Hum a song and have the group guess it.",
+    "text": "{player}: Hum a song and have the group guess it.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever cried tears of laughter until it hurt. Everyone who has, drinks 2 sips.",
@@ -2412,9 +2412,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: Every sentence must end with 'friend' until your next turn. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Every sentence must end with 'friend' until your next turn. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Everyone names a dance style in turn. Last person to answer drinks 2 sips.",
@@ -2442,9 +2442,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best cat impression.",
+    "text": "{player}: Do your best cat impression.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has never had a broken heart drinks 2 sips.",
@@ -2542,9 +2542,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Speak in an accent chosen by the group until your next turn.",
+    "text": "{player}: Speak in an accent chosen by the group until your next turn.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever lied about my whereabouts to a partner. Everyone who has, drinks 2 sips.",
@@ -2562,9 +2562,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Let the group pick your profile picture for the next hour.",
+    "text": "{player}: Let the group pick your profile picture for the next hour.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever been so drunk I forgot the night. If you have, take 3 sips.",
@@ -2597,19 +2597,19 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Let the group pick your next drink order (non-alcoholic is fine).",
+    "text": "{player}: Let the group pick your next drink order (non-alcoholic is fine).",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "New rule: No one may say 'okay' for the rest of the round. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No one may say 'okay' for the rest of the round. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Do your best impression of someone trying not to laugh.",
+    "text": "{player}: Do your best impression of someone trying not to laugh.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has a playlist named after a person takes 2 sips.",
@@ -2637,9 +2637,9 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "New rule: No saying 'yes' or 'no' — find another way, until your next turn. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No saying 'yes' or 'no' — find another way, until your next turn. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has a guilty pleasure TV show takes 2 sips.",
@@ -2687,14 +2687,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Say the alphabet while patting your head and rubbing your stomach.",
+    "text": "{player}: Say the alphabet while patting your head and rubbing your stomach.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Try to lick your elbow.",
+    "text": "{player}: Try to lick your elbow.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever snuck alcohol into an event. If you have, take 3 sips.",
@@ -2732,9 +2732,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: No crossing your legs for the rest of the round. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No crossing your legs for the rest of the round. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever shown up to an event in the completely wrong outfit. Everyone who has, drinks 2 sips.",
@@ -2782,9 +2782,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: Everyone must drink with their non-dominant hand for the rest of the game. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must drink with their non-dominant hand for the rest of the game. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has taken a selfie in the last hour takes 1 sip.",
@@ -2832,9 +2832,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Let the group pick a silly walk for you to do across the room.",
+    "text": "{player}: Let the group pick a silly walk for you to do across the room.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever shown up somewhere on the completely wrong day. Everyone who has, drinks 2 sips.",
@@ -2882,9 +2882,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Recite the alphabet backwards or drink 3 sips.",
+    "text": "{player}: Recite the alphabet backwards or drink 3 sips.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Everyone drinks 2 sips, cheers first.",
@@ -2912,9 +2912,9 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Act out your favorite movie scene without speaking.",
+    "text": "{player}: Act out your favorite movie scene without speaking.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever kept a pet's death a secret from someone. Everyone who has, drinks 2 sips.",
@@ -2962,9 +2962,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best news anchor voice for your next sentence.",
+    "text": "{player}: Do your best news anchor voice for your next sentence.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Everyone who has fallen asleep in public drinks 3 sips.",
@@ -2977,9 +2977,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Question Master: until your next turn, if anyone answers a question you ask, they drink 2 sips.",
+    "text": "{player} is the Question Master: until their next turn, if anyone answers a question they ask, they drink 2 sips.",
     "category": "special",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has a nickname they hate drinks 3 sips.",
@@ -3002,14 +3002,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Take 3 sips.",
+    "text": "{player}, take 3 sips.",
     "category": "drink",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Try to draw the room with your eyes closed.",
+    "text": "{player}: Try to draw the room with your eyes closed.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has cancelled plans to stay in takes 3 sips.",
@@ -3027,9 +3027,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do 10 jumping jacks right now.",
+    "text": "{player}: Do 10 jumping jacks right now.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has snorted while laughing takes 1 sip.",
@@ -3097,14 +3097,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Share the last lie you told and why.",
+    "text": "{player}: Share the last lie you told and why.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Take 3 sips, no questions asked.",
+    "text": "{player}, take 3 sips, no questions asked.",
     "category": "drink",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has kissed someone in this room drinks 2 sips.",
@@ -3132,9 +3132,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Tell the group your comfort food.",
+    "text": "{player}: Tell the group your comfort food.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever pretended to be busy on a night I had nothing to do. If you have, take 3 sips.",
@@ -3162,9 +3162,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Share your zodiac sign and one trait that fits you perfectly.",
+    "text": "{player}: Share your zodiac sign and one trait that fits you perfectly.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Name a type of jacket. Go around the group — first to repeat or hesitate drinks.",
@@ -3177,9 +3177,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best impression of your favorite cartoon character.",
+    "text": "{player}: Do your best impression of your favorite cartoon character.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "{player} vs {player2} — who has the messiest room? Group votes, loser drinks 3 sips.",
@@ -3212,9 +3212,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Let the group choose a silly hashtag for your night.",
+    "text": "{player}: Let the group choose a silly hashtag for your night.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever gone on a blind date. If you have, take 3 sips.",
@@ -3272,9 +3272,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Tell a joke. If nobody laughs, drink 2 sips.",
+    "text": "{player}: Tell a joke. If nobody laughs, drink 2 sips.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever fallen asleep during a movie in theaters. Everyone who has, drinks 2 sips.",
@@ -3292,9 +3292,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Say three truths and one lie — group guesses the lie.",
+    "text": "{player}: Say three truths and one lie — group guesses the lie.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "The group decides: {player} or {player2}, who gives the best advice? Loser drinks 2 sips.",
@@ -3387,14 +3387,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Finish 1 sip in a row without stopping.",
+    "text": "{player}, finish 1 sip in a row without stopping.",
     "category": "drink",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Share a New Year's resolution you already broke.",
+    "text": "{player}: Share a New Year's resolution you already broke.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has read a book for fun this year takes 2 sips.",
@@ -3407,9 +3407,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Try to make everyone laugh with just your facial expressions.",
+    "text": "{player}: Try to make everyone laugh with just your facial expressions.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has a food they refuse to try drinks 2 sips.",
@@ -3422,9 +3422,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best impression of a news reporter covering this party.",
+    "text": "{player}: Do your best impression of a news reporter covering this party.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever gotten so lost I had to ask for directions. Everyone who has, drinks 2 sips.",
@@ -3447,9 +3447,9 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Take 4 sips and stare at the ceiling while you do it.",
+    "text": "{player}, take 4 sips and stare at the ceiling while you do it.",
     "category": "drink",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Name a type of key on a keyboard. Go around the group — first to repeat or hesitate drinks.",
@@ -3492,9 +3492,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best impression of an infomercial host selling the drink in your hand.",
+    "text": "{player}: Do your best impression of an infomercial host selling the drink in your hand.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever pretended to be an expert on something I knew nothing about. If you have, take 3 sips.",
@@ -3507,9 +3507,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Share the weirdest dream you remember.",
+    "text": "{player}: Share the weirdest dream you remember.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has stolen something small drinks 1 sip.",
@@ -3522,9 +3522,9 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Talk like a pirate until your next turn.",
+    "text": "{player}: Talk like a pirate until your next turn.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever cried while watching a sports game. If you have, take 3 sips.",
@@ -3532,9 +3532,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: No sitting down for the rest of the round — everyone stands. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No sitting down for the rest of the round — everyone stands. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has been on a reality TV show application drinks 2 sips.",
@@ -3712,9 +3712,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Tell the group the weirdest food combo you enjoy.",
+    "text": "{player}: Tell the group the weirdest food combo you enjoy.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has a sibling takes 3 sips.",
@@ -3722,9 +3722,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best impersonation of someone else in the room, no naming names.",
+    "text": "{player}: Do your best impersonation of someone else in the room, no naming names.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has been to another country takes 2 sips.",
@@ -3747,9 +3747,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Take 2 sips and stare at the ceiling while you do it.",
+    "text": "{player}, take 2 sips and stare at the ceiling while you do it.",
     "category": "drink",
-    "players": 0
+    "players": 1
   },
   {
     "text": "The group decides: {player} or {player2}, who has the messiest room? Loser drinks 2 sips.",
@@ -3787,9 +3787,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best impression of a game show host.",
+    "text": "{player}: Do your best impression of a game show host.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has texted an ex recently drinks 2 sips.",
@@ -3822,9 +3822,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Share your most-used app this week.",
+    "text": "{player}: Share your most-used app this week.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "The group decides: {player} or {player2}, who is more likely to survive a zombie apocalypse? Loser drinks 2 sips.",
@@ -3837,9 +3837,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Tell the group your most embarrassing childhood nickname.",
+    "text": "{player}: Tell the group your most embarrassing childhood nickname.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Everyone who has bought something just because it was on sale drinks 1 sip.",
@@ -3862,14 +3862,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: No standing during your turn for the rest of the round — sit only. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No standing during your turn for the rest of the round — sit only. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Do your best impression of a baby.",
+    "text": "{player}: Do your best impression of a baby.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever had a crush on my best friend's partner. Everyone who has, drinks 2 sips.",
@@ -3897,9 +3897,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do a dramatic reading of a text from your phone.",
+    "text": "{player}: Do a dramatic reading of a text from your phone.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Everyone who has read a book for fun this year drinks 3 sips.",
@@ -3967,14 +3967,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: No using anyone's name — point and describe them instead, for the rest of the round. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No using anyone's name — point and describe them instead, for the rest of the round. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Tell the group the last show you binge-watched.",
+    "text": "{player}: Tell the group the last show you binge-watched.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has cried happy tears this year takes 2 sips.",
@@ -4002,9 +4002,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do an interpretive dance of the last movie you watched.",
+    "text": "{player}: Do an interpretive dance of the last movie you watched.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Give 1 sip to whoever is closest to you.",
@@ -4027,9 +4027,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Take 1 sip.",
+    "text": "{player}, take 1 sip.",
     "category": "drink",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Category round: punk or rock band. First person who can't think of one drinks 3 sips.",
@@ -4052,9 +4052,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Talk in a whisper until your next turn.",
+    "text": "{player}: Talk in a whisper until your next turn.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Name a TV show. Go around the group — first to repeat or hesitate drinks.",
@@ -4062,9 +4062,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Let the group rename you for the rest of the game.",
+    "text": "{player}: Let the group rename you for the rest of the game.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "The group decides: {player} or {player2}, who has the best singing voice? Loser drinks 2 sips.",
@@ -4072,14 +4072,14 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Do your best impression of a coach giving a halftime speech.",
+    "text": "{player}: Do your best impression of a coach giving a halftime speech.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Do your best dance move for 15 seconds.",
+    "text": "{player}: Do your best dance move for 15 seconds.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever sent a text meant for someone else to the wrong person. Everyone who has, drinks 2 sips.",
@@ -4122,9 +4122,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best slow-motion action scene.",
+    "text": "{player}: Do your best slow-motion action scene.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever pretended to be an expert on something I knew nothing about. Everyone who has, drinks 2 sips.",
@@ -4137,14 +4137,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Take 1 sip and stare at the ceiling while you do it.",
+    "text": "{player}, take 1 sip and stare at the ceiling while you do it.",
     "category": "drink",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "New rule: No phones on the table for the rest of the round — first to break it drinks. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No phones on the table for the rest of the round — first to break it drinks. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has a savings account under $100 drinks 3 sips.",
@@ -4157,9 +4157,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: No leaning back in your chair for the rest of the round. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No leaning back in your chair for the rest of the round. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has lied to get out of plans takes 2 sips.",
@@ -4182,9 +4182,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best impression of a substitute teacher taking attendance.",
+    "text": "{player}: Do your best impression of a substitute teacher taking attendance.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever left the house with mismatched shoes. Everyone who has, drinks 2 sips.",
@@ -4192,9 +4192,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: No crossing your arms for the rest of the round. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No crossing your arms for the rest of the round. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever spent an entire paycheck in one day. Everyone who has, drinks 2 sips.",
@@ -4212,14 +4212,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: No one can say 'drink' out loud for the rest of the game. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No one can say 'drink' out loud for the rest of the game. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Take 3 sips and stare at the ceiling while you do it.",
+    "text": "{player}, take 3 sips and stare at the ceiling while you do it.",
     "category": "drink",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever gone streaking. Everyone who has, drinks 2 sips.",
@@ -4242,9 +4242,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Tell the group an unpopular opinion you have.",
+    "text": "{player}: Tell the group an unpopular opinion you have.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Category round: color. First person who can't think of one drinks 3 sips.",
@@ -4332,14 +4332,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best impression of a golf commentator narrating this game.",
+    "text": "{player}: Do your best impression of a golf commentator narrating this game.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "New rule: No using phones for the rest of the round. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: No using phones for the rest of the round. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Category round: Disney movie. First person who can't think of one drinks 3 sips.",
@@ -4477,9 +4477,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Hold a plank for 20 seconds or drink 3 sips.",
+    "text": "{player}: Hold a plank for 20 seconds or drink 3 sips.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "{player} vs {player2} — who tells the funniest jokes? Group votes, loser drinks 3 sips.",
@@ -4487,9 +4487,9 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Trade seats with someone for the rest of the round.",
+    "text": "{player}: Trade seats with someone for the rest of the round.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has more than 3 apps for dating takes 2 sips.",
@@ -4512,9 +4512,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Answer the next 3 questions in a movie-trailer voice.",
+    "text": "{player}: Answer the next 3 questions in a movie-trailer voice.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has more than one email address drinks 2 sips.",
@@ -4587,9 +4587,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: Everyone must clink cups before every sip from now on. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must clink cups before every sip from now on. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever been arrested or held by police. If you have, take 3 sips.",
@@ -4652,9 +4652,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Describe your perfect day in 10 words or less.",
+    "text": "{player}: Describe your perfect day in 10 words or less.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever pretended to understand a joke I didn't get. Everyone who has, drinks 2 sips.",
@@ -4682,9 +4682,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Share your most irrational fear.",
+    "text": "{player}: Share your most irrational fear.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "{player} vs {player2} — who is more likely to become famous? Group votes, loser drinks 3 sips.",
@@ -4692,9 +4692,9 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Share your go-to karaoke song.",
+    "text": "{player}: Share your go-to karaoke song.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has a tattoo takes 3 sips.",
@@ -4752,14 +4752,14 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Do your best superhero pose and hold it for 10 seconds.",
+    "text": "{player}: Do your best superhero pose and hold it for 10 seconds.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Share the worst haircut you've ever had.",
+    "text": "{player}: Share the worst haircut you've ever had.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever cried during a commercial. If you have, take 3 sips.",
@@ -4772,9 +4772,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Say the last text you sent out loud.",
+    "text": "{player}: Say the last text you sent out loud.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has been the last one picked for a team takes 2 sips.",
@@ -4797,9 +4797,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "New rule: Everyone must give a toast title to every round for the rest of the game. Whoever breaks it drinks.",
+    "text": "{player} makes a new rule: Everyone must give a toast title to every round for the rest of the game. Whoever breaks it drinks.",
     "category": "rule",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Everyone who has sent a text to the wrong person drinks 1 sip.",
@@ -4827,9 +4827,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Try to make the group laugh without using words.",
+    "text": "{player}: Try to make the group laugh without using words.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Anyone in the room who has more than 10 unread texts right now takes 2 sips.",
@@ -4847,9 +4847,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Try to touch your nose with your tongue.",
+    "text": "{player}: Try to touch your nose with your tongue.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Name a food. Go around the group — first to repeat or hesitate drinks.",
@@ -4922,9 +4922,9 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Let the person to your left post anything on your story (with your ok).",
+    "text": "{player}: Let the person to your left post anything on your story (with your ok).",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Never have I ever had a crush on someone way older or younger than me. If you have, take 3 sips.",
@@ -4932,19 +4932,19 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Finish 2 sips in a row without stopping.",
+    "text": "{player}, finish 2 sips in a row without stopping.",
     "category": "drink",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Let the group pick your walk-up song for the rest of the night.",
+    "text": "{player}: Let the group pick your walk-up song for the rest of the night.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
-    "text": "Do your best robot dance for 10 seconds.",
+    "text": "{player}: Do your best robot dance for 10 seconds.",
     "category": "dare",
-    "players": 0
+    "players": 1
   },
   {
     "text": "Whoever has pretended to like a gift drinks 2 sips.",
