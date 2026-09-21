@@ -332,8 +332,8 @@ h1, h2, .logo-mark, .btn-primary, .btn-big {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 6px 0 28px;
+  justify-content: flex-end;
+  padding: 6px 0 20px;
   perspective: 1200px;
 }
 
