@@ -2,7 +2,7 @@
 // {player} / {player2} are replaced at runtime with random players.
 const PICOLO_QUESTIONS = [
   {
-    "text": "Never have I ever cheated on a test in school. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever cheated on a test in school? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -17,22 +17,22 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has a pet drinks 2 sips.",
+    "text": "Who has a pet? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever had a threesome. If you have, take 3 sips.",
+    "text": "Have you ever had a threesome? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever sent a text meant for someone else to the wrong person. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever sent a text meant for someone else to the wrong person? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who is wearing socks drinks 2 sips.",
+    "text": "Who is wearing socks? The one who is, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -42,7 +42,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has left a party without saying bye drinks 2 sips.",
+    "text": "Who has left a party without saying bye? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -57,12 +57,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has cancelled plans to stay in takes 2 sips.",
+    "text": "Who has cancelled plans to stay in? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever gone commando to a public place. If you have, take 3 sips.",
+    "text": "Have you ever gone commando to a public place? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -72,7 +72,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Everyone who has snooped through a partner's phone drinks 2 sips.",
+    "text": "Who has snooped through a partner's phone? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -82,22 +82,22 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever ghosted someone I dated. If you have, take 3 sips.",
+    "text": "Have you ever ghosted someone you dated? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever laughed so hard I peed a little. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever laughed so hard you peed a little? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever stalked someone on social media for hours. If you have, take 3 sips.",
+    "text": "Have you ever stalked someone on social media for hours? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has been called their parent's name by accident drinks 2 sips.",
+    "text": "Who has been called their parent's name by accident? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -107,27 +107,27 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever had a friendship end over something small. If you have, take 3 sips.",
+    "text": "Have you ever had a friendship end over something small? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever had a secret handshake with a friend. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever had a secret handshake with a friend? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has bought something just because it was on sale drinks 3 sips.",
+    "text": "Who has bought something just because it was on sale? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever cried in front of a stranger. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever cried in front of a stranger? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever broken a bone doing something stupid. If you have, take 3 sips.",
+    "text": "Have you ever broken a bone doing something stupid? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -137,7 +137,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has a crush on someone in this room drinks 3 sips.",
+    "text": "Who has a crush on someone in this room? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -157,7 +157,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gotten a speeding ticket. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gotten a speeding ticket? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -167,12 +167,12 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Anyone in the room who has sung in the shower today takes 2 sips.",
+    "text": "Who has sung in the shower today? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever cried at an award show. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever cried at an award show? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -197,7 +197,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has bought something just because it was on sale drinks 2 sips.",
+    "text": "Who has bought something just because it was on sale? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -212,7 +212,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has pretended to know a song they didn't drinks 2 sips.",
+    "text": "Who has pretended to know a song they didn't? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -227,7 +227,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever been in a fist fight. If you have, take 3 sips.",
+    "text": "Have you ever been in a fist fight? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -242,7 +242,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever been catfished. If you have, take 3 sips.",
+    "text": "Have you ever been catfished? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -267,22 +267,22 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever regifted a present. If you have, take 3 sips.",
+    "text": "Have you ever regifted a present? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever used a fake ID. If you have, take 3 sips.",
+    "text": "Have you ever used a fake ID? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has sung in the shower today drinks 3 sips.",
+    "text": "Who has sung in the shower today? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has danced in front of a mirror takes 2 sips.",
+    "text": "Who has danced in front of a mirror? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -297,12 +297,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever hidden from someone at a store to avoid talking. If you have, take 3 sips.",
+    "text": "Have you ever hidden from someone at a store to avoid talking? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has walked into a glass door drinks 1 sip.",
+    "text": "Who has walked into a glass door? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -312,7 +312,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gone skinny dipping. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gone skinny dipping? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -322,22 +322,22 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has laughed at something inappropriate drinks 2 sips.",
+    "text": "Who has laughed at something inappropriate? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has broken a bone drinks 3 sips.",
+    "text": "Who has broken a bone? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has talked to a pet like it's a person takes 1 sip.",
+    "text": "Who has talked to a pet like it's a person? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever gone commando to a public place. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gone commando to a public place? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -347,22 +347,22 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has snooped through a partner's phone drinks 3 sips.",
+    "text": "Who has snooped through a partner's phone? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever binge-watched a show in one sitting. If you have, take 3 sips.",
+    "text": "Have you ever binge-watched a show in one sitting? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has pretended to know a song they didn't drinks 2 sips.",
+    "text": "Who has pretended to know a song they didn't? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has fallen down stairs takes 2 sips.",
+    "text": "Who has fallen down stairs? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -427,12 +427,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gotten a tattoo I regret. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gotten a tattoo you regret? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has cried this week drinks 2 sips.",
+    "text": "Who has cried this week? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -452,17 +452,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever sent flirty texts to the wrong chat. If you have, take 3 sips.",
+    "text": "Have you ever sent flirty texts to the wrong chat? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who is an only child takes 3 sips.",
+    "text": "Who is an only child? Whoever isn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever forgotten I already told someone a story. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever forgotten you already told someone a story? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -472,7 +472,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever eaten something after the expiration date on purpose. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever eaten something after the expiration date on purpose? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -482,7 +482,7 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Anyone in the room who is the youngest sibling takes 2 sips.",
+    "text": "Who is the youngest sibling? Whoever isn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -492,7 +492,7 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Never have I ever been caught sneaking out. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever been caught sneaking out? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -507,7 +507,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gone home with someone whose name I didn't know. If you have, take 3 sips.",
+    "text": "Have you ever gone home with someone whose name you didn't know? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -532,17 +532,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever laughed so hard I peed a little. If you have, take 3 sips.",
+    "text": "Have you ever laughed so hard you peed a little? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever gone through a partner's phone without asking. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gone through a partner's phone without asking? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever cried happy tears at a wedding. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever cried happy tears at a wedding? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -557,12 +557,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gone home with someone whose name I didn't know. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gone home with someone whose name you didn't know? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever had a one night stand. If you have, take 3 sips.",
+    "text": "Have you ever had a one night stand? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -582,7 +582,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever been in the wrong place at the wrong time. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever been in the wrong place at the wrong time? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -592,7 +592,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever had a threesome. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever had a threesome? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -602,17 +602,17 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Everyone who has pretended to like a gift drinks 2 sips.",
+    "text": "Who has pretended to like a gift? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever gotten lost in my own city. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gotten lost in your own city? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has left a party without saying bye takes 3 sips.",
+    "text": "Who has left a party without saying bye? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -627,7 +627,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever left the house with mismatched shoes. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever left the house with mismatched shoes? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -642,7 +642,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever accidentally called a teacher or boss 'mom' or 'dad'. If you have, take 3 sips.",
+    "text": "Have you ever accidentally called a teacher or boss 'mom' or 'dad'? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -652,7 +652,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has drunk-texted someone takes 2 sips.",
+    "text": "Who has drunk-texted someone? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -672,7 +672,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Never have I ever fallen in love at first sight. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever fallen in love at first sight? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -687,12 +687,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever skipped a meal just to save calories for drinking. If you have, take 3 sips.",
+    "text": "Have you ever skipped a meal just to save calories for drinking? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever been so drunk I forgot the night. If you have, take 3 sips.",
+    "text": "Have you ever been so drunk you forgot the night? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -712,7 +712,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who is wearing socks takes 2 sips.",
+    "text": "Who is wearing socks? The one who is, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -722,12 +722,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever ghosted someone I dated. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever ghosted someone you dated? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever cried tears of laughter until it hurt. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever cried tears of laughter until it hurt? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -737,7 +737,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever had a crush on a teacher. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever had a crush on a teacher? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -747,7 +747,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has laughed so hard they cried drinks 3 sips.",
+    "text": "Who has laughed so hard they cried? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -792,12 +792,12 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Anyone in the room who has talked to a pet like it's a person takes 2 sips.",
+    "text": "Who has talked to a pet like it's a person? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever sent a text meant for someone else to the wrong person. If you have, take 3 sips.",
+    "text": "Have you ever sent a text meant for someone else to the wrong person? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -807,12 +807,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever sung karaoke horribly on purpose. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever sung karaoke horribly on purpose? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has cried happy tears this year takes 1 sip.",
+    "text": "Who has cried happy tears this year? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -822,27 +822,27 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever binge-watched a show in one sitting. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever binge-watched a show in one sitting? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever been in a car accident. If you have, take 3 sips.",
+    "text": "Have you ever been in a car accident? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has never been on a plane drinks 3 sips.",
+    "text": "Who has never been on a plane? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has been the last one picked for a team drinks 2 sips.",
+    "text": "Who has been the last one picked for a team? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever cried over a TV show character dying. If you have, take 3 sips.",
+    "text": "Have you ever cried over a TV show character dying? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -877,7 +877,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has a piercing other than ears drinks 2 sips.",
+    "text": "Who has a piercing other than ears? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -887,7 +887,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has never broken a bone drinks 2 sips.",
+    "text": "Who has never broken a bone? Whoever has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -902,7 +902,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has cried during a Pixar movie drinks 2 sips.",
+    "text": "Who has cried during a Pixar movie? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -912,7 +912,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever had a crush on a friend's ex. If you have, take 3 sips.",
+    "text": "Have you ever had a crush on a friend's ex? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -922,17 +922,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has more than 10 unread texts right now drinks 1 sip.",
+    "text": "Who has more than 10 unread texts right now? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has bought something just because it was on sale drinks 1 sip.",
+    "text": "Who has bought something just because it was on sale? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has laughed at their own joke before finishing it drinks 1 sip.",
+    "text": "Who has laughed at their own joke before finishing it? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -942,22 +942,22 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has stolen something small drinks 2 sips.",
+    "text": "Who has stolen something small? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has sung karaoke drinks 2 sips.",
+    "text": "Who has sung karaoke? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has slept through an alarm for something important drinks 1 sip.",
+    "text": "Who has slept through an alarm for something important? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has skipped a class or meeting to nap drinks 3 sips.",
+    "text": "Who has skipped a class or meeting to nap? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -982,7 +982,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who is an only child drinks 2 sips.",
+    "text": "Who is an only child? The one who is, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -992,7 +992,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever been late to my own event. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever been late to your own event? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1007,12 +1007,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever pretended to be on the phone to avoid someone. If you have, take 3 sips.",
+    "text": "Have you ever pretended to be on the phone to avoid someone? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever gone through with a plan I regretted the whole time. If you have, take 3 sips.",
+    "text": "Have you ever gone through with a plan you regretted the whole time? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1032,22 +1032,22 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever forgotten someone's name mid-introduction. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever forgotten someone's name mid-introduction? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever is the youngest sibling drinks 3 sips.",
+    "text": "Who is the youngest sibling? The one who is, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has sung in the shower today takes 1 sip.",
+    "text": "Who has sung in the shower today? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has walked into a glass door takes 3 sips.",
+    "text": "Who has walked into a glass door? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -1057,7 +1057,7 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Everyone who has sung in the shower today drinks 2 sips.",
+    "text": "Who has sung in the shower today? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -1067,27 +1067,27 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Everyone who has a tattoo drinks 1 sip.",
+    "text": "Who has a tattoo? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever accidentally sent a text to a group chat instead of one person. If you have, take 3 sips.",
+    "text": "Have you ever accidentally sent a text to a group chat instead of one person? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever cried while watching a sports game. If you have, take 3 sips.",
+    "text": "Have you ever cried while watching a sports game? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever pretended to know a language I don't speak. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever pretended to know a language you don't speak? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever lied about liking a gift. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever lied about liking a gift? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1097,12 +1097,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever eaten dessert before dinner. If you have, take 3 sips.",
+    "text": "Have you ever eaten dessert before dinner? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has more than 3 apps for dating drinks 3 sips.",
+    "text": "Who has more than 3 apps for dating? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -1127,7 +1127,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever forgotten a friend's birthday. If you have, take 3 sips.",
+    "text": "Have you ever forgotten a friend's birthday? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1137,7 +1137,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever owns more than three plants drinks 1 sip.",
+    "text": "Who has more than three houseplants? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -1147,7 +1147,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has forgotten someone's name right after meeting them takes 2 sips.",
+    "text": "Who has forgotten someone's name right after meeting them? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -1162,17 +1162,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who owns more than three plants drinks 3 sips.",
+    "text": "Who has more than three houseplants? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever stayed friends with someone I probably shouldn't have. If you have, take 3 sips.",
+    "text": "Have you ever stayed friends with someone you probably shouldn't have? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has been to another country drinks 3 sips.",
+    "text": "Who has been to another country? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -1192,7 +1192,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has more than one email address drinks 3 sips.",
+    "text": "Who has more than one email address? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -1212,12 +1212,12 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Everyone who has danced in front of a mirror drinks 3 sips.",
+    "text": "Who has danced in front of a mirror? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has more than one email address drinks 2 sips.",
+    "text": "Who has more than one email address? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -1227,7 +1227,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever stayed friends with someone I probably shouldn't have. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever stayed friends with someone you probably shouldn't have? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1257,47 +1257,47 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever worn the same outfit two days in a row on purpose. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever worn the same outfit two days in a row on purpose? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has forgotten their own phone number drinks 3 sips.",
+    "text": "Who has forgotten their own phone number? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has stolen something small takes 2 sips.",
+    "text": "Who has stolen something small? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has danced in front of a mirror drinks 1 sip.",
+    "text": "Who has danced in front of a mirror? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever kissed someone in this room. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever kissed someone in this room? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever pretended to understand a joke I didn't get. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever pretended to understand a joke you didn't get? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever pretended to be someone else online. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever pretended to be someone else online? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has pretended to be sick to skip work or school takes 3 sips.",
+    "text": "Who has pretended to be sick to skip work or school? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever stayed in a relationship I knew was over. If you have, take 3 sips.",
+    "text": "Have you ever stayed in a relationship you knew was over? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1322,7 +1322,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Everyone who has cried happy tears this year drinks 2 sips.",
+    "text": "Who has cried happy tears this year? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -1332,7 +1332,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gone streaking. If you have, take 3 sips.",
+    "text": "Have you ever gone streaking? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1357,12 +1357,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has been on a reality TV show application drinks 2 sips.",
+    "text": "Who has been on a reality TV show application? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever pretended to understand a joke I didn't get. If you have, take 3 sips.",
+    "text": "Have you ever pretended to understand a joke you didn't get? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1372,7 +1372,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever laughed at a funeral by accident. If you have, take 3 sips.",
+    "text": "Have you ever laughed at a funeral by accident? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1382,7 +1382,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has pretended to know a song they didn't takes 3 sips.",
+    "text": "Who has pretended to know a song they didn't? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -1402,12 +1402,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has laughed so hard they cried drinks 1 sip.",
+    "text": "Who has laughed so hard they cried? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has broken a bone takes 2 sips.",
+    "text": "Who has broken a bone? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -1417,7 +1417,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who is the youngest sibling drinks 2 sips.",
+    "text": "Who is the youngest sibling? Whoever isn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -1452,7 +1452,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has more than 10 unread texts right now takes 3 sips.",
+    "text": "Who has more than 10 unread texts right now? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -1462,7 +1462,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has cancelled plans to stay in takes 1 sip.",
+    "text": "Who has cancelled plans to stay in? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -1487,27 +1487,27 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has bitten their nails this week takes 2 sips.",
+    "text": "Who has bitten their nails this week? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever faked an illness to avoid a date. If you have, take 3 sips.",
+    "text": "Have you ever faked an illness to avoid a date? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever eaten something after the expiration date on purpose. If you have, take 3 sips.",
+    "text": "Have you ever eaten something after the expiration date on purpose? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever accidentally liked an old photo while stalking someone. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever accidentally liked an old photo while stalking someone? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever made a fake social media profile. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever made a fake social media profile? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1517,22 +1517,22 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has more than one email address drinks 1 sip.",
+    "text": "Who has more than one email address? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has pretended to know a song they didn't drinks 1 sip.",
+    "text": "Who has pretended to know a song they didn't? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever been dumped on my birthday. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever been dumped on your birthday? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever been in a fist fight. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever been in a fist fight? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1552,17 +1552,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has sung happy birthday off-key on purpose drinks 3 sips.",
+    "text": "Who has sung happy birthday off-key on purpose? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever been catfished. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever been catfished? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever danced on a table. If you have, take 3 sips.",
+    "text": "Have you ever danced on a table? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1572,17 +1572,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gone to a concert alone. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gone to a concert alone? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever forgotten I already told someone a story. If you have, take 3 sips.",
+    "text": "Have you ever forgotten you already told someone a story? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has cried this week takes 2 sips.",
+    "text": "Who has cried this week? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -1592,17 +1592,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever peed in a pool. If you have, take 3 sips.",
+    "text": "Have you ever peed in a pool? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever pretended to be an expert on something I knew nothing about. If you have, take 3 sips.",
+    "text": "Have you ever pretended to be an expert on something you knew nothing about? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever regifted a present. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever regifted a present? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1627,7 +1627,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has cried during a movie drinks 1 sip.",
+    "text": "Who has cried during a movie? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -1637,7 +1637,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever cheated in a board game. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever cheated in a board game? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1647,17 +1647,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever pretended to laugh at a joke that wasn't funny. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever pretended to laugh at a joke that wasn't funny? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has cried during a movie drinks 2 sips.",
+    "text": "Who has cried during a movie? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever broken a bone doing something stupid. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever broken a bone doing something stupid? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1667,7 +1667,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Never have I ever had a crush on more than one person at once. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever had a crush on more than one person at once? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1687,17 +1687,17 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Anyone in the room who has sent a text to the wrong person takes 2 sips.",
+    "text": "Who has sent a text to the wrong person? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has been dumped over text takes 2 sips.",
+    "text": "Who has been dumped over text? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever told a white lie to avoid a plan. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever told a white lie to avoid a plan? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1722,42 +1722,42 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever fallen asleep at work. If you have, take 3 sips.",
+    "text": "Have you ever fallen asleep at work? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has been called their parent's name by accident takes 2 sips.",
+    "text": "Who has been called their parent's name by accident? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has laughed at their own joke before finishing it drinks 3 sips.",
+    "text": "Who has laughed at their own joke before finishing it? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever gone a full day without checking my phone. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gone a full day without checking your phone? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has read a book for fun this year takes 2 sips.",
+    "text": "Who has read a book for fun this year? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has pretended to be busy to avoid someone drinks 2 sips.",
+    "text": "Who has pretended to be busy to avoid someone? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has taken a selfie in the last hour drinks 2 sips.",
+    "text": "Who has taken a selfie in the last hour? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever eaten food off the floor. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever eaten food off the floor? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1772,7 +1772,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has a sibling drinks 2 sips.",
+    "text": "Who has a sibling? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -1782,7 +1782,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever taken a nap that ruined my whole night's sleep. If you have, take 3 sips.",
+    "text": "Have you ever taken a nap that ruined your whole night's sleep? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1792,7 +1792,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever sung karaoke horribly on purpose. If you have, take 3 sips.",
+    "text": "Have you ever sung karaoke horribly on purpose? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1802,12 +1802,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has been on a reality TV show application takes 3 sips.",
+    "text": "Who has been on a reality TV show application? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has drunk-texted someone drinks 3 sips.",
+    "text": "Who has drunk-texted someone? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -1817,7 +1817,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has sung karaoke takes 2 sips.",
+    "text": "Who has sung karaoke? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -1837,7 +1837,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever lied about my whereabouts to a partner. If you have, take 3 sips.",
+    "text": "Have you ever lied about your whereabouts to a partner? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1852,12 +1852,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever had a secret social media account. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever had a secret social media account? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has sent a text to the wrong person drinks 2 sips.",
+    "text": "Who has sent a text to the wrong person? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -1867,12 +1867,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever told a white lie to avoid a plan. If you have, take 3 sips.",
+    "text": "Have you ever told a white lie to avoid a plan? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever been dumped by text message. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever been dumped by text message? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -1887,12 +1887,12 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Never have I ever gotten so lost I had to ask for directions. If you have, take 3 sips.",
+    "text": "Have you ever gotten so lost you had to ask for directions? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has forgotten their own phone number takes 2 sips.",
+    "text": "Who has forgotten their own phone number? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -1902,7 +1902,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Whoever has walked into a glass door drinks 2 sips.",
+    "text": "Who has walked into a glass door? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -1922,12 +1922,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever eaten dessert before dinner. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever eaten dessert before dinner? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has sent a text to the wrong person drinks 3 sips.",
+    "text": "Who has sent a text to the wrong person? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -1942,17 +1942,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gotten a tattoo I regret. If you have, take 3 sips.",
+    "text": "Have you ever gotten a tattoo you regret? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has stalked an ex on social media this month drinks 3 sips.",
+    "text": "Who has stalked an ex on social media this month? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has laughed at something inappropriate drinks 1 sip.",
+    "text": "Who has laughed at something inappropriate? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -1967,7 +1967,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Anyone in the room who owns more than three plants takes 2 sips.",
+    "text": "Who has more than three houseplants? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -1982,7 +1982,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Anyone in the room who is the youngest sibling takes 1 sip.",
+    "text": "Who is the youngest sibling? The one who is, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -2002,12 +2002,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has drunk-texted someone drinks 1 sip.",
+    "text": "Who has drunk-texted someone? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has forgotten someone's name right after meeting them drinks 3 sips.",
+    "text": "Who has forgotten someone's name right after meeting them? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -2022,7 +2022,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has broken a bone drinks 2 sips.",
+    "text": "Who has broken a bone? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -2042,7 +2042,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever lied to my parents about where I was. If you have, take 3 sips.",
+    "text": "Have you ever lied to your parents about where you were? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2057,7 +2057,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has cheated on a test drinks 2 sips.",
+    "text": "Who has cheated on a test? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -2067,7 +2067,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has more than 5 unread emails right now drinks 2 sips.",
+    "text": "Who has more than 5 unread emails right now? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -2097,7 +2097,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has lied to get out of plans drinks 1 sip.",
+    "text": "Who has lied to get out of plans? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -2107,7 +2107,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has never been on a plane drinks 1 sip.",
+    "text": "Who has never been on a plane? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -2117,17 +2117,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has cancelled plans to stay in drinks 2 sips.",
+    "text": "Who has cancelled plans to stay in? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has fallen down stairs takes 1 sip.",
+    "text": "Who has fallen down stairs? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has a savings account under $100 drinks 2 sips.",
+    "text": "Who has a savings account under $100? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -2137,7 +2137,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever lied about my age. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever lied about your age? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2152,42 +2152,42 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever had a really embarrassing autocorrect fail. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever had a really embarrassing autocorrect fail? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever double-booked plans and ditched one. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever double-booked plans and ditched one? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever spent an entire paycheck in one day. If you have, take 3 sips.",
+    "text": "Have you ever spent an entire paycheck in one day? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever cried at an award show. If you have, take 3 sips.",
+    "text": "Have you ever cried at an award show? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has ghosted someone drinks 2 sips.",
+    "text": "Who has ghosted someone? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever had a really embarrassing autocorrect fail. If you have, take 3 sips.",
+    "text": "Have you ever had a really embarrassing autocorrect fail? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever spent an entire paycheck in one day. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever spent an entire paycheck in one day? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever stolen a street sign. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever stolen a street sign? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2197,7 +2197,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has googled themselves drinks 2 sips.",
+    "text": "Who has googled themselves? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -2207,12 +2207,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever pretended to be someone else online. If you have, take 3 sips.",
+    "text": "Have you ever pretended to be someone else online? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever faked an illness to avoid a date. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever faked an illness to avoid a date? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2222,12 +2222,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has pretended to like a gift drinks 1 sip.",
+    "text": "Who has pretended to like a gift? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has a savings account under $100 takes 3 sips.",
+    "text": "Who has a savings account under $100? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -2237,7 +2237,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who is wearing socks takes 1 sip.",
+    "text": "Who is wearing socks? Whoever isn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -2257,7 +2257,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever taken a nap that ruined my whole night's sleep. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever taken a nap that ruined your whole night's sleep? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2282,7 +2282,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Anyone in the room who has snooped through a partner's phone takes 2 sips.",
+    "text": "Who has snooped through a partner's phone? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -2312,22 +2312,22 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gone to school or work still drunk. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gone to school or work still drunk? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has sung happy birthday off-key on purpose drinks 1 sip.",
+    "text": "Who has sung happy birthday off-key on purpose? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever eaten a whole tub of ice cream in one sitting. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever eaten a whole tub of ice cream in one sitting? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has drunk-texted someone drinks 2 sips.",
+    "text": "Who has drunk-texted someone? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -2342,7 +2342,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gone skinny dipping. If you have, take 3 sips.",
+    "text": "Have you ever gone skinny dipping? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2357,12 +2357,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has ghosted someone drinks 3 sips.",
+    "text": "Who has ghosted someone? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has cried during a Pixar movie drinks 1 sip.",
+    "text": "Who has cried during a Pixar movie? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -2377,17 +2377,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever sent flirty texts to the wrong chat. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever sent flirty texts to the wrong chat? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has pretended to like a gift takes 3 sips.",
+    "text": "Who has pretended to like a gift? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has never broken a bone drinks 2 sips.",
+    "text": "Who has never broken a bone? Whoever has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -2397,7 +2397,7 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Everyone who has read a book for fun this year drinks 2 sips.",
+    "text": "Who has read a book for fun this year? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -2407,12 +2407,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever been the reason a party ended early. If you have, take 3 sips.",
+    "text": "Have you ever been the reason a party ended early? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever is an only child drinks 2 sips.",
+    "text": "Who is an only child? The one who is, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -2427,32 +2427,32 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever pretended not to see someone to avoid them. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever pretended not to see someone to avoid them? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever kept a pet's death a secret from someone. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever kept a pet's death a secret from someone? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever thrown up in public. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever thrown up in public? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has cried during a Pixar movie takes 3 sips.",
+    "text": "Who has cried during a Pixar movie? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has a piercing other than ears drinks 1 sip.",
+    "text": "Who has a piercing other than ears? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever been kicked out of a bar or club. If you have, take 3 sips.",
+    "text": "Have you ever been kicked out of a bar or club? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2462,7 +2462,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gone through a partner's phone without asking. If you have, take 3 sips.",
+    "text": "Have you ever gone through a partner's phone without asking? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2477,7 +2477,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever pretended to be busy on a night I had nothing to do. If you have, take 3 sips.",
+    "text": "Have you ever pretended to be busy on a night you had nothing to do? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2492,7 +2492,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever had a crush on a cartoon character. If you have, take 3 sips.",
+    "text": "Have you ever had a crush on a cartoon character? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2502,7 +2502,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has pretended to like a gift drinks 2 sips.",
+    "text": "Who has pretended to like a gift? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -2512,7 +2512,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Whoever has bitten their nails this week drinks 1 sip.",
+    "text": "Who has bitten their nails this week? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -2557,7 +2557,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has talked to a pet like it's a person drinks 3 sips.",
+    "text": "Who has talked to a pet like it's a person? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -2577,7 +2577,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has laughed at their own joke before finishing it takes 2 sips.",
+    "text": "Who has laughed at their own joke before finishing it? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -2592,12 +2592,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has googled themselves takes 2 sips.",
+    "text": "Who has googled themselves? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has skipped a class or meeting to nap drinks 1 sip.",
+    "text": "Who has skipped a class or meeting to nap? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -2617,7 +2617,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has lied to get out of plans drinks 2 sips.",
+    "text": "Who has lied to get out of plans? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -2632,7 +2632,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever been dumped by text message. If you have, take 3 sips.",
+    "text": "Have you ever been dumped by text message? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2647,7 +2647,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has snooped through a partner's phone takes 1 sip.",
+    "text": "Who has snooped through a partner's phone? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -2662,7 +2662,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has bitten their nails this week drinks 3 sips.",
+    "text": "Who has bitten their nails this week? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -2677,7 +2677,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever double-booked plans and ditched one. If you have, take 3 sips.",
+    "text": "Have you ever double-booked plans and ditched one? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2692,17 +2692,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has fallen asleep in public takes 3 sips.",
+    "text": "Who has fallen asleep in public? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever fallen for a prank on April Fools' Day. If you have, take 3 sips.",
+    "text": "Have you ever fallen for a prank on April Fools' Day? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever gone to school or work still drunk. If you have, take 3 sips.",
+    "text": "Have you ever gone to school or work still drunk? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2732,7 +2732,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Everyone who has pretended to be sick to skip work or school drinks 2 sips.",
+    "text": "Who has pretended to be sick to skip work or school? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -2742,12 +2742,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has a savings account under $100 drinks 1 sip.",
+    "text": "Who has a savings account under $100? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever been late to my own event. If you have, take 3 sips.",
+    "text": "Have you ever been late to your own event? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2757,12 +2757,12 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Whoever has a savings account under $100 drinks 2 sips.",
+    "text": "Who has a savings account under $100? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever fallen for a prank on April Fools' Day. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever fallen for a prank on April Fools' Day? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2772,7 +2772,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Never have I ever snuck into a movie without paying. If you have, take 3 sips.",
+    "text": "Have you ever snuck into a movie without paying? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2787,17 +2787,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever had a crush on my best friend's partner. If you have, take 3 sips.",
+    "text": "Have you ever had a crush on your best friend's partner? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has snorted while laughing drinks 2 sips.",
+    "text": "Who has snorted while laughing? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has been dumped over text drinks 3 sips.",
+    "text": "Who has been dumped over text? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -2817,7 +2817,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Everyone who has taken a selfie in the last hour drinks 1 sip.",
+    "text": "Who has taken a selfie in the last hour? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -2842,7 +2842,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Never have I ever kept a pet's death a secret from someone. If you have, take 3 sips.",
+    "text": "Have you ever kept a pet's death a secret from someone? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2852,12 +2852,12 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Never have I ever had a secret handshake with a friend. If you have, take 3 sips.",
+    "text": "Have you ever had a secret handshake with a friend? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has fallen down stairs drinks 2 sips.",
+    "text": "Who has fallen down stairs? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -2867,17 +2867,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has texted an ex recently drinks 1 sip.",
+    "text": "Who has texted an ex recently? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has bought something just because it was on sale takes 2 sips.",
+    "text": "Who has bought something just because it was on sale? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has sung happy birthday off-key on purpose drinks 2 sips.",
+    "text": "Who has sung happy birthday off-key on purpose? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -2892,12 +2892,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has lied to get out of plans drinks 3 sips.",
+    "text": "Who has lied to get out of plans? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has laughed at something inappropriate drinks 2 sips.",
+    "text": "Who has laughed at something inappropriate? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -2907,22 +2907,22 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has stolen something small drinks 3 sips.",
+    "text": "Who has stolen something small? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has fallen asleep in public drinks 2 sips.",
+    "text": "Who has fallen asleep in public? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has pretended to be busy to avoid someone takes 2 sips.",
+    "text": "Who has pretended to be busy to avoid someone? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever spent more than an hour picking an outfit. If you have, take 3 sips.",
+    "text": "Have you ever spent more than an hour picking an outfit? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2937,27 +2937,27 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Anyone in the room who has never broken a bone takes 3 sips.",
+    "text": "Who has never broken a bone? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever had a crush on a friend's ex. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever had a crush on a friend's ex? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever had a crush on someone way older or younger than me. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever had a crush on someone way older or younger than you? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever been the reason a party ended early. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever been the reason a party ended early? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has forgotten their own phone number takes 1 sip.",
+    "text": "Who has forgotten their own phone number? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -2982,12 +2982,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever pretended to be an expert on something I knew nothing about. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever pretended to be an expert on something you knew nothing about? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever cried during a commercial. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever cried during a commercial? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -2997,27 +2997,27 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever walked into traffic while texting. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever walked into traffic while texting? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever been fired from a job. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever been fired from a job? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has cried this week takes 1 sip.",
+    "text": "Who has cried this week? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has stalked an ex on social media this month takes 2 sips.",
+    "text": "Who has stalked an ex on social media this month? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever used a fake ID. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever used a fake ID? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3032,12 +3032,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has kissed someone in this room drinks 2 sips.",
+    "text": "Who has kissed someone in this room? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever hooked up with a friend's sibling. If you have, take 3 sips.",
+    "text": "Have you ever hooked up with a friend's sibling? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3047,12 +3047,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has never broken a bone drinks 1 sip.",
+    "text": "Who has never broken a bone? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has been dumped over text drinks 2 sips.",
+    "text": "Who has been dumped over text? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -3062,27 +3062,27 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gone to a party uninvited. If you have, take 3 sips.",
+    "text": "Have you ever gone to a party uninvited? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has never had a broken heart drinks 2 sips.",
+    "text": "Who has never had a broken heart? Whoever has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever told a lie that spiraled out of control. If you have, take 3 sips.",
+    "text": "Have you ever told a lie that spiraled out of control? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has fallen down stairs drinks 3 sips.",
+    "text": "Who has fallen down stairs? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has snorted while laughing takes 1 sip.",
+    "text": "Who has snorted while laughing? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -3097,7 +3097,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever peed in a pool. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever peed in a pool? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3112,7 +3112,7 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Whoever has broken a bone drinks 1 sip.",
+    "text": "Who has broken a bone? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -3122,12 +3122,12 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Never have I ever made out with a stranger. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever made out with a stranger? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever walked out on a bill. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever walked out on a bill? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3137,12 +3137,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever cheated on a test in school. If you have, take 3 sips.",
+    "text": "Have you ever cheated on a test in school? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever owns more than three plants drinks 2 sips.",
+    "text": "Who has more than three houseplants? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -3152,32 +3152,32 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has laughed so hard they cried takes 2 sips.",
+    "text": "Who has laughed so hard they cried? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever gone to a concert alone. If you have, take 3 sips.",
+    "text": "Have you ever gone to a concert alone? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever made out with a stranger. If you have, take 3 sips.",
+    "text": "Have you ever made out with a stranger? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever made a scene in public over something small. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever made a scene in public over something small? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has left a party without saying bye drinks 2 sips.",
+    "text": "Who has left a party without saying bye? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has a tattoo drinks 2 sips.",
+    "text": "Who has a tattoo? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -3187,7 +3187,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever told a lie that spiraled out of control. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever told a lie that spiraled out of control? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3217,12 +3217,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever pretended to be sick to avoid a family event. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever pretended to be sick to avoid a family event? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has a pet drinks 2 sips.",
+    "text": "Who has a pet? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -3232,17 +3232,17 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Never have I ever eaten a whole tub of ice cream in one sitting. If you have, take 3 sips.",
+    "text": "Have you ever eaten a whole tub of ice cream in one sitting? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever kissed someone in this room. If you have, take 3 sips.",
+    "text": "Have you ever kissed someone in this room? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever walked out on a bill. If you have, take 3 sips.",
+    "text": "Have you ever walked out on a bill? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3252,12 +3252,12 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Anyone in the room who has more than 3 apps for dating takes 2 sips.",
+    "text": "Who has more than 3 apps for dating? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has pretended to be busy to avoid someone takes 1 sip.",
+    "text": "Who has pretended to be busy to avoid someone? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -3267,7 +3267,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has never been on a plane drinks 2 sips.",
+    "text": "Who has never been on a plane? Whoever has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -3277,17 +3277,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever cried in front of a stranger. If you have, take 3 sips.",
+    "text": "Have you ever cried in front of a stranger? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever cheated in a board game. If you have, take 3 sips.",
+    "text": "Have you ever cheated in a board game? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has forgotten their own phone number drinks 2 sips.",
+    "text": "Who has forgotten their own phone number? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -3317,12 +3317,12 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Anyone in the room who is the oldest sibling takes 2 sips.",
+    "text": "Who is the oldest sibling? The one who is, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever fallen in love at first sight. If you have, take 3 sips.",
+    "text": "Have you ever fallen in love at first sight? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3332,7 +3332,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has texted an ex recently drinks 2 sips.",
+    "text": "Who has texted an ex recently? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -3342,22 +3342,22 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever danced in public without music playing. If you have, take 3 sips.",
+    "text": "Have you ever danced in public without music playing? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever stayed in a relationship I knew was over. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever stayed in a relationship you knew was over? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever is the oldest sibling drinks 2 sips.",
+    "text": "Who is the oldest sibling? The one who is, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has laughed so hard they cried drinks 2 sips.",
+    "text": "Who has laughed so hard they cried? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -3372,12 +3372,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever called in sick to go to a party. If you have, take 3 sips.",
+    "text": "Have you ever called in sick to go to a party? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever walked into traffic while texting. If you have, take 3 sips.",
+    "text": "Have you ever walked into traffic while texting? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3392,7 +3392,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gone on a blind date. If you have, take 3 sips.",
+    "text": "Have you ever gone on a blind date? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3402,12 +3402,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has cried this week drinks 3 sips.",
+    "text": "Who has cried this week? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has been called their parent's name by accident takes 1 sip.",
+    "text": "Who has been called their parent's name by accident? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -3422,7 +3422,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has left a party without saying bye drinks 1 sip.",
+    "text": "Who has left a party without saying bye? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -3432,7 +3432,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has forgotten someone's name right after meeting them drinks 1 sip.",
+    "text": "Who has forgotten someone's name right after meeting them? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -3447,7 +3447,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever forgotten someone's name mid-introduction. If you have, take 3 sips.",
+    "text": "Have you ever forgotten someone's name mid-introduction? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3457,12 +3457,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has slept through an alarm for something important drinks 2 sips.",
+    "text": "Who has slept through an alarm for something important? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has a crush on someone in this room takes 1 sip.",
+    "text": "Who has a crush on someone in this room? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -3477,32 +3477,32 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has been to another country drinks 2 sips.",
+    "text": "Who has been to another country? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has stalked an ex on social media this month drinks 2 sips.",
+    "text": "Who has stalked an ex on social media this month? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever lied about liking a gift. If you have, take 3 sips.",
+    "text": "Have you ever lied about liking a gift? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever accidentally liked an old photo while stalking someone. If you have, take 3 sips.",
+    "text": "Have you ever accidentally liked an old photo while stalking someone? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever made a fake social media profile. If you have, take 3 sips.",
+    "text": "Have you ever made a fake social media profile? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has a pet drinks 1 sip.",
+    "text": "Who has a pet? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -3532,7 +3532,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever had a wardrobe malfunction in public. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever had a wardrobe malfunction in public? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3542,12 +3542,12 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Anyone in the room who has ghosted someone takes 2 sips.",
+    "text": "Who has ghosted someone? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has danced in front of a mirror drinks 2 sips.",
+    "text": "Who has danced in front of a mirror? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -3557,12 +3557,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever had a crush on more than one person at once. If you have, take 3 sips.",
+    "text": "Have you ever had a crush on more than one person at once? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has more than 10 unread texts right now drinks 2 sips.",
+    "text": "Who has more than 10 unread texts right now? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -3572,47 +3572,47 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever lied on a resume. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever lied on a resume? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever stalked someone on social media for hours. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever stalked someone on social media for hours? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has stolen something small takes 1 sip.",
+    "text": "Who has stolen something small? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever had a crush on someone way older or younger than me. If you have, take 3 sips.",
+    "text": "Have you ever had a crush on someone way older or younger than you? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has more than 3 apps for dating takes 1 sip.",
+    "text": "Who has more than 3 apps for dating? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever made a scene in public over something small. If you have, take 3 sips.",
+    "text": "Have you ever made a scene in public over something small? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever gotten a speeding ticket. If you have, take 3 sips.",
+    "text": "Have you ever gotten a speeding ticket? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has taken a selfie in the last hour takes 3 sips.",
+    "text": "Who has taken a selfie in the last hour? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has never had a broken heart takes 1 sip.",
+    "text": "Who has never had a broken heart? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -3622,7 +3622,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever been the third wheel and hated it. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever been the third wheel and hated it? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3637,7 +3637,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has a sibling takes 3 sips.",
+    "text": "Who has a sibling? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -3647,22 +3647,22 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has been to another country takes 2 sips.",
+    "text": "Who has been to another country? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever pretended to be on the phone to avoid someone. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever pretended to be on the phone to avoid someone? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever skipped a meal just to save calories for drinking. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever skipped a meal just to save calories for drinking? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has kissed someone in this room takes 2 sips.",
+    "text": "Who has kissed someone in this room? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -3682,17 +3682,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has been on a reality TV show application drinks 1 sip.",
+    "text": "Who has been on a reality TV show application? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever sent a risky text to the wrong person. If you have, take 3 sips.",
+    "text": "Have you ever sent a risky text to the wrong person? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever been arrested or held by police. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever been arrested or held by police? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3712,17 +3712,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has skipped a class or meeting to nap drinks 2 sips.",
+    "text": "Who has skipped a class or meeting to nap? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has slept through an alarm for something important drinks 3 sips.",
+    "text": "Who has slept through an alarm for something important? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has sent a text to the wrong person takes 1 sip.",
+    "text": "Who has sent a text to the wrong person? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -3752,7 +3752,7 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Never have I ever snuck alcohol into an event. If you have, take 3 sips.",
+    "text": "Have you ever snuck alcohol into an event? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3767,17 +3767,17 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Never have I ever had a friendship end over something small. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever had a friendship end over something small? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has googled themselves drinks 3 sips.",
+    "text": "Who has googled themselves? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever gotten so lost I had to ask for directions. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gotten so lost you had to ask for directions? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3787,7 +3787,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever had a crush on my best friend's partner. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever had a crush on your best friend's partner? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3802,12 +3802,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever eaten food off the floor. If you have, take 3 sips.",
+    "text": "Have you ever eaten food off the floor? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever cheated on a partner. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever cheated on a partner? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3817,12 +3817,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who is the oldest sibling drinks 3 sips.",
+    "text": "Who is the oldest sibling? Whoever isn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever gone on a blind date. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gone on a blind date? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3832,27 +3832,27 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever had a wardrobe malfunction in public. If you have, take 3 sips.",
+    "text": "Have you ever had a wardrobe malfunction in public? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has been dumped over text drinks 1 sip.",
+    "text": "Who has been dumped over text? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has pretended to be sick to skip work or school drinks 2 sips.",
+    "text": "Who has pretended to be sick to skip work or school? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever lied about my age. If you have, take 3 sips.",
+    "text": "Have you ever lied about your age? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has a sibling drinks 2 sips.",
+    "text": "Who has a sibling? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -3862,12 +3862,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever left the house with mismatched shoes. If you have, take 3 sips.",
+    "text": "Have you ever left the house with mismatched shoes? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has sung karaoke takes 1 sip.",
+    "text": "Who has sung karaoke? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -3882,22 +3882,22 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has never had a broken heart takes 2 sips.",
+    "text": "Who has never had a broken heart? Whoever has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has been to another country drinks 1 sip.",
+    "text": "Who has been to another country? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has never had a broken heart drinks 3 sips.",
+    "text": "Who has never had a broken heart? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has laughed at their own joke before finishing it drinks 2 sips.",
+    "text": "Who has laughed at their own joke before finishing it? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -3927,7 +3927,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Never have I ever cried during a commercial. If you have, take 3 sips.",
+    "text": "Have you ever cried during a commercial? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -3937,17 +3937,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever been caught sneaking out. If you have, take 3 sips.",
+    "text": "Have you ever been caught sneaking out? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever called in sick to go to a party. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever called in sick to go to a party? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has more than 5 unread emails right now takes 3 sips.",
+    "text": "Who has more than 5 unread emails right now? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -3987,17 +3987,17 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Whoever has pretended to be busy to avoid someone drinks 3 sips.",
+    "text": "Who has pretended to be busy to avoid someone? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever hidden from someone at a store to avoid talking. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever hidden from someone at a store to avoid talking? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has lied to get out of plans takes 2 sips.",
+    "text": "Who has lied to get out of plans? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -4007,12 +4007,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has bitten their nails this week drinks 2 sips.",
+    "text": "Who has bitten their nails this week? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever shown up somewhere on the completely wrong day. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever shown up somewhere on the completely wrong day? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4027,12 +4027,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever spent more than an hour picking an outfit. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever spent more than an hour picking an outfit? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever cried because I was hungry. If you have, take 3 sips.",
+    "text": "Have you ever cried because you were hungry? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4047,7 +4047,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has read a book for fun this year drinks 3 sips.",
+    "text": "Who has read a book for fun this year? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -4072,12 +4072,12 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Never have I ever forgotten a friend's birthday. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever forgotten a friend's birthday? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever fallen asleep during a movie in theaters. If you have, take 3 sips.",
+    "text": "Have you ever fallen asleep during a movie in theaters? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4087,7 +4087,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever laughed at a funeral by accident. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever laughed at a funeral by accident? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4097,17 +4097,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gone to work or school with a hangover. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gone to work or school with a hangover? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has laughed at something inappropriate takes 3 sips.",
+    "text": "Who has laughed at something inappropriate? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever cried because I was hungry. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever cried because you were hungry? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4122,17 +4122,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever sent a risky text to the wrong person. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever sent a risky text to the wrong person? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has been called their parent's name by accident drinks 3 sips.",
+    "text": "Who has been called their parent's name by accident? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever cheated on a partner. If you have, take 3 sips.",
+    "text": "Have you ever cheated on a partner? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4157,12 +4157,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever is wearing socks drinks 3 sips.",
+    "text": "Who is wearing socks? Whoever isn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever been so drunk I forgot the night. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever been so drunk you forgot the night? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4172,7 +4172,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Never have I ever lied about my whereabouts to a partner. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever lied about your whereabouts to a partner? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4187,17 +4187,17 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Never have I ever eaten an entire pizza alone. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever eaten an entire pizza alone? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has never been on a plane takes 2 sips.",
+    "text": "Who has never been on a plane? Whoever has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has a crush on someone in this room drinks 2 sips.",
+    "text": "Who has a crush on someone in this room? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -4207,12 +4207,12 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Never have I ever gone a full day without checking my phone. If you have, take 3 sips.",
+    "text": "Have you ever gone a full day without checking your phone? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has a piercing other than ears takes 3 sips.",
+    "text": "Who has a piercing other than ears? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -4227,7 +4227,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has cried during a movie takes 3 sips.",
+    "text": "Who has cried during a movie? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -4247,7 +4247,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever thrown up in public. If you have, take 3 sips.",
+    "text": "Have you ever thrown up in public? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4257,22 +4257,22 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever fallen asleep at work. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever fallen asleep at work? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever gone through with a plan I regretted the whole time. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gone through with a plan you regretted the whole time? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has snorted while laughing drinks 3 sips.",
+    "text": "Who has snorted while laughing? The one who has, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever been fired from a job. If you have, take 3 sips.",
+    "text": "Have you ever been fired from a job? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4282,12 +4282,12 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Never have I ever pretended to be busy on a night I had nothing to do. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever pretended to be busy on a night you had nothing to do? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has slept through an alarm for something important takes 2 sips.",
+    "text": "Who has slept through an alarm for something important? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -4297,12 +4297,12 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Everyone who has been the last one picked for a team drinks 1 sip.",
+    "text": "Who has been the last one picked for a team? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has forgotten someone's name right after meeting them drinks 2 sips.",
+    "text": "Who has forgotten someone's name right after meeting them? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -4312,7 +4312,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gone to a party uninvited. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gone to a party uninvited? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4327,12 +4327,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever cried happy tears at a wedding. If you have, take 3 sips.",
+    "text": "Have you ever cried happy tears at a wedding? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has texted an ex recently drinks 3 sips.",
+    "text": "Who has texted an ex recently? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -4342,27 +4342,27 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Never have I ever pretended to laugh at a joke that wasn't funny. If you have, take 3 sips.",
+    "text": "Have you ever pretended to laugh at a joke that wasn't funny? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever been in a car accident. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever been in a car accident? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has texted an ex recently takes 2 sips.",
+    "text": "Who has texted an ex recently? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has a sibling drinks 1 sip.",
+    "text": "Who has a sibling? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has been the last one picked for a team drinks 2 sips.",
+    "text": "Who has been the last one picked for a team? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -4392,12 +4392,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has cried happy tears this year takes 2 sips.",
+    "text": "Who has cried happy tears this year? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has a pet takes 3 sips.",
+    "text": "Who has a pet? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -4407,7 +4407,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever fallen asleep during a movie in theaters. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever fallen asleep during a movie in theaters? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4422,32 +4422,32 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Never have I ever pretended not to see someone to avoid them. If you have, take 3 sips.",
+    "text": "Have you ever pretended not to see someone to avoid them? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has cheated on a test drinks 2 sips.",
+    "text": "Who has cheated on a test? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever danced on a table. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever danced on a table? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever cried while watching a sports game. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever cried while watching a sports game? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever been so nervous I threw up. If you have, take 3 sips.",
+    "text": "Have you ever been so nervous you threw up? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has sung happy birthday off-key on purpose takes 2 sips.",
+    "text": "Who has sung happy birthday off-key on purpose? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -4462,7 +4462,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever is the oldest sibling drinks 1 sip.",
+    "text": "Who is the oldest sibling? Whoever isn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -4472,17 +4472,17 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Never have I ever shown up to an event in the completely wrong outfit. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever shown up to an event in the completely wrong outfit? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever gone streaking. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gone streaking? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who is an only child drinks 1 sip.",
+    "text": "Who is an only child? Whoever isn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -4492,22 +4492,22 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever had a crush on a teacher. If you have, take 3 sips.",
+    "text": "Have you ever had a crush on a teacher? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has kissed someone in this room drinks 3 sips.",
+    "text": "Who has kissed someone in this room? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever had a secret social media account. If you have, take 3 sips.",
+    "text": "Have you ever had a secret social media account? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever gone to work or school with a hangover. If you have, take 3 sips.",
+    "text": "Have you ever gone to work or school with a hangover? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4517,17 +4517,17 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Anyone in the room who has been the last one picked for a team takes 3 sips.",
+    "text": "Who has been the last one picked for a team? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever snuck alcohol into an event. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever snuck alcohol into an event? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has walked into a glass door drinks 2 sips.",
+    "text": "Who has walked into a glass door? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -4542,7 +4542,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has more than 5 unread emails right now drinks 2 sips.",
+    "text": "Who has more than 5 unread emails right now? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -4557,7 +4557,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever cried over a TV show character dying. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever cried over a TV show character dying? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4577,7 +4577,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Everyone who has fallen asleep in public drinks 1 sip.",
+    "text": "Who has fallen asleep in public? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -4597,27 +4597,27 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has a tattoo takes 3 sips.",
+    "text": "Who has a tattoo? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has cried during a Pixar movie drinks 2 sips.",
+    "text": "Who has cried during a Pixar movie? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever cried tears of laughter until it hurt. If you have, take 3 sips.",
+    "text": "Have you ever cried tears of laughter until it hurt? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has cried happy tears this year drinks 3 sips.",
+    "text": "Who has cried happy tears this year? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever pretended to be sick to avoid a family event. If you have, take 3 sips.",
+    "text": "Have you ever pretended to be sick to avoid a family event? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4627,22 +4627,22 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Whoever has kissed someone in this room drinks 1 sip.",
+    "text": "Who has kissed someone in this room? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever worn the same outfit two days in a row on purpose. If you have, take 3 sips.",
+    "text": "Have you ever worn the same outfit two days in a row on purpose? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has talked to a pet like it's a person drinks 2 sips.",
+    "text": "Who has talked to a pet like it's a person? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever lied on a resume. If you have, take 3 sips.",
+    "text": "Have you ever lied on a resume? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4662,12 +4662,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gotten lost in my own city. If you have, take 3 sips.",
+    "text": "Have you ever gotten lost in your own city? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever eaten an entire pizza alone. If you have, take 3 sips.",
+    "text": "Have you ever eaten an entire pizza alone? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4677,17 +4677,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has more than one email address takes 2 sips.",
+    "text": "Who has more than one email address? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever been dumped on my birthday. If you have, take 3 sips.",
+    "text": "Have you ever been dumped on your birthday? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has a tattoo drinks 2 sips.",
+    "text": "Who has a tattoo? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
@@ -4697,12 +4697,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has pretended to be sick to skip work or school drinks 1 sip.",
+    "text": "Who has pretended to be sick to skip work or school? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever stolen a street sign. If you have, take 3 sips.",
+    "text": "Have you ever stolen a street sign? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4712,7 +4712,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever shown up to an event in the completely wrong outfit. If you have, take 3 sips.",
+    "text": "Have you ever shown up to an event in the completely wrong outfit? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4727,12 +4727,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has snorted while laughing takes 2 sips.",
+    "text": "Who has snorted while laughing? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever lied to my parents about where I was. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever lied to your parents about where you were? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4752,7 +4752,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has stalked an ex on social media this month takes 1 sip.",
+    "text": "Who has stalked an ex on social media this month? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -4762,7 +4762,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has a piercing other than ears drinks 2 sips.",
+    "text": "Who has a piercing other than ears? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
@@ -4777,17 +4777,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever shown up somewhere on the completely wrong day. If you have, take 3 sips.",
+    "text": "Have you ever shown up somewhere on the completely wrong day? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has more than 3 apps for dating drinks 2 sips.",
+    "text": "Who has more than 3 apps for dating? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has read a book for fun this year takes 1 sip.",
+    "text": "Who has read a book for fun this year? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -4807,12 +4807,12 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Never have I ever accidentally sent a text to a group chat instead of one person. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever accidentally sent a text to a group chat instead of one person? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has more than 5 unread emails right now drinks 1 sip.",
+    "text": "Who has more than 5 unread emails right now? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -4822,7 +4822,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever pretended to know a language I don't speak. If you have, take 3 sips.",
+    "text": "Have you ever pretended to know a language you don't speak? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4842,12 +4842,12 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Whoever has taken a selfie in the last hour drinks 2 sips.",
+    "text": "Who has taken a selfie in the last hour? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever been arrested or held by police. If you have, take 3 sips.",
+    "text": "Have you ever been arrested or held by police? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4857,7 +4857,7 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Anyone in the room who has cheated on a test takes 3 sips.",
+    "text": "Who has cheated on a test? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
@@ -4872,27 +4872,27 @@ const PICOLO_QUESTIONS = [
     "players": 2
   },
   {
-    "text": "Never have I ever danced in public without music playing. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever danced in public without music playing? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever been in the wrong place at the wrong time. If you have, take 3 sips.",
+    "text": "Have you ever been in the wrong place at the wrong time? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever been the third wheel and hated it. If you have, take 3 sips.",
+    "text": "Have you ever been the third wheel and hated it? If you have not, take 3 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has googled themselves drinks 1 sip.",
+    "text": "Who has googled themselves? The one who has, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever had a one night stand. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever had a one night stand? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4902,7 +4902,7 @@ const PICOLO_QUESTIONS = [
     "players": 0
   },
   {
-    "text": "Never have I ever hooked up with a friend's sibling. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever hooked up with a friend's sibling? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4912,17 +4912,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Everyone who has been on a reality TV show application drinks 2 sips.",
+    "text": "Who has been on a reality TV show application? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has cheated on a test drinks 1 sip.",
+    "text": "Who has cheated on a test? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has ghosted someone drinks 1 sip.",
+    "text": "Who has ghosted someone? Whoever hasn't, drinks 1 sip.",
     "category": "group",
     "players": 0
   },
@@ -4942,17 +4942,17 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever snuck into a movie without paying. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever snuck into a movie without paying? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has sung karaoke drinks 3 sips.",
+    "text": "Who has sung karaoke? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever been kicked out of a bar or club. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever been kicked out of a bar or club? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
@@ -4962,42 +4962,42 @@ const PICOLO_QUESTIONS = [
     "players": 1
   },
   {
-    "text": "Never have I ever gotten way too competitive over a board game. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever gotten way too competitive over a board game? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Never have I ever had a crush on a cartoon character. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever had a crush on a cartoon character? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Whoever has fallen asleep in public drinks 2 sips.",
+    "text": "Who has fallen asleep in public? The one who has, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Never have I ever accidentally called a teacher or boss 'mom' or 'dad'. Everyone who has, drinks 2 sips.",
+    "text": "Have you ever accidentally called a teacher or boss 'mom' or 'dad'? If you have, take 2 sips.",
     "category": "neverhave",
     "players": 0
   },
   {
-    "text": "Everyone who has cried during a movie drinks 2 sips.",
+    "text": "Who has cried during a movie? Whoever hasn't, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Anyone in the room who has skipped a class or meeting to nap takes 2 sips.",
+    "text": "Who has skipped a class or meeting to nap? Whoever hasn't, drinks 2 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Everyone who has more than 10 unread texts right now drinks 2 sips.",
+    "text": "Who has more than 10 unread texts right now? The one who has, drinks 4 sips.",
     "category": "group",
     "players": 0
   },
   {
-    "text": "Whoever has cancelled plans to stay in drinks 3 sips.",
+    "text": "Who has cancelled plans to stay in? Whoever hasn't, drinks 3 sips.",
     "category": "group",
     "players": 0
   }

@@ -73,7 +73,7 @@ conditions = [
     "has a piercing other than ears", "has ghosted someone",
     "has stalked an ex on social media this month", "has fallen asleep in public",
     "has lied to get out of plans", "has a crush on someone in this room",
-    "has laughed at something inappropriate", "owns more than three plants",
+    "has laughed at something inappropriate", "has more than three houseplants",
     "has sent a text to the wrong person", "has pretended to be sick to skip work or school",
     "has been dumped over text", "has stolen something small",
     "has cried during a movie", "has forgotten someone's name right after meeting them",
@@ -103,18 +103,22 @@ conditions = [
     "has never broken a bone",
     "has laughed at their own joke before finishing it",
 ]
-group_templates = [
-    "Everyone who {cond} drinks {n} sip{s}.",
-    "Whoever {cond} drinks {n} sip{s}.",
-    "Anyone in the room who {cond} takes {n} sip{s}.",
-]
+group_subjects = ["Whoever", "The one who"]
 for i, cond in enumerate(conditions):
+    verb = cond.split(" ", 1)[0]  # every condition starts with "has" or "is"
+    neg_verb = "hasn't" if verb == "has" else "isn't"
+    # Conditions already phrased in the negative ("has never...") would
+    # double-negate into nonsense if flipped, so those always stay affirmative.
+    can_flip = "never" not in cond
     # 4 variants per condition (not the full 3x3 cross product) to keep
-    # this category from dominating the deck.
-    for j, n in enumerate([1, 2, 3, 2]):
+    # this category from dominating the deck. Roughly half flip which
+    # answer drinks, so players can't assume "yes" always costs a sip.
+    for j, n in enumerate([1, 2, 3, 4]):
         s = "s" if n != 1 else ""
-        t = group_templates[(i + j) % len(group_templates)]
-        add(t.format(cond=cond, n=n, s=s), "group")
+        subject = group_subjects[(i + j) % len(group_subjects)]
+        flip = can_flip and (i + j) % 2 == 0
+        v = neg_verb if flip else verb
+        add(f"Who {cond}? {subject} {v}, drinks {n} sip{s}.", "group")
 
 # ---------------------------------------------------------------------------
 # 2b. Share & vote rounds — everyone reveals something, group votes, the
@@ -173,78 +177,80 @@ for cat in categories_list:
 # ---------------------------------------------------------------------------
 never_statements = [
     "gone skinny dipping", "been in a fist fight", "cheated on a partner",
-    "been caught sneaking out", "lied about my age", "gone streaking",
+    "been caught sneaking out", "lied about your age", "gone streaking",
     "stolen a street sign", "been fired from a job", "called in sick to go to a party",
     "kissed someone in this room", "had a crush on a friend's ex",
     "been kicked out of a bar or club", "faked an illness to avoid a date",
-    "gone on a blind date", "been dumped on my birthday",
+    "gone on a blind date", "been dumped on your birthday",
     "sent a risky text to the wrong person", "cried in front of a stranger",
     "danced on a table", "gone to school or work still drunk",
     "had a one night stand", "used a fake ID", "peed in a pool",
     "been in a car accident", "cheated on a test in school",
-    "stalked someone on social media for hours", "ghosted someone I dated",
+    "stalked someone on social media for hours", "ghosted someone you dated",
     "been catfished", "lied on a resume", "walked out on a bill",
     "regifted a present", "thrown up in public", "fallen asleep at work",
-    "gotten a tattoo I regret", "been arrested or held by police",
+    "gotten a tattoo you regret", "been arrested or held by police",
     "snuck into a movie without paying", "had a threesome",
-    "made out with a stranger", "been so drunk I forgot the night",
+    "made out with a stranger", "been so drunk you forgot the night",
     "cried during a commercial", "pretended to be someone else online",
-    "hooked up with a friend's sibling", "lied to my parents about where I was",
+    "hooked up with a friend's sibling", "lied to your parents about where you were",
     "eaten food off the floor", "had a crush on a teacher",
-    "been late to my own event", "gone commando to a public place",
-    "broken a bone doing something stupid", "pretended to understand a joke I didn't get",
-    "gotten lost in my own city", "sent a text meant for someone else to the wrong person",
-    "laughed so hard I peed a little", "been the reason a party ended early",
+    "been late to your own event", "gone commando to a public place",
+    "broken a bone doing something stupid", "pretended to understand a joke you didn't get",
+    "gotten lost in your own city", "sent a text meant for someone else to the wrong person",
+    "laughed so hard you peed a little", "been the reason a party ended early",
     "hidden from someone at a store to avoid talking", "eaten an entire pizza alone",
     "told a lie that spiraled out of control", "pretended to be on the phone to avoid someone",
     "gone through a partner's phone without asking", "cried over a TV show character dying",
-    "double-booked plans and ditched one", "been so nervous I threw up",
+    "double-booked plans and ditched one", "been so nervous you threw up",
     "forgotten a friend's birthday", "gone to a party uninvited",
     "lied about liking a gift", "had a secret social media account",
     "been in the wrong place at the wrong time", "walked into traffic while texting",
     "accidentally liked an old photo while stalking someone",
-    "cried happy tears at a wedding", "gone home with someone whose name I didn't know",
+    "cried happy tears at a wedding", "gone home with someone whose name you didn't know",
     "had a wardrobe malfunction in public", "pretended to be sick to avoid a family event",
     "spent an entire paycheck in one day", "fallen for a prank on April Fools' Day",
     "sung karaoke horribly on purpose", "gotten a speeding ticket",
     "snuck alcohol into an event", "made a fake social media profile",
     "been dumped by text message", "had a crush on a cartoon character",
-    "eaten a whole tub of ice cream in one sitting", "lied about my whereabouts to a partner",
+    "eaten a whole tub of ice cream in one sitting", "lied about your whereabouts to a partner",
     "gone to work or school with a hangover", "pretended not to see someone to avoid them",
     "cheated in a board game", "cried while watching a sports game",
-    "gotten so lost I had to ask for directions", "forgotten someone's name mid-introduction",
-    "stayed in a relationship I knew was over", "had a crush on more than one person at once",
+    "gotten so lost you had to ask for directions", "forgotten someone's name mid-introduction",
+    "stayed in a relationship you knew was over", "had a crush on more than one person at once",
     "accidentally sent a text to a group chat instead of one person",
-    "pretended to be an expert on something I knew nothing about",
+    "pretended to be an expert on something you knew nothing about",
     "danced in public without music playing", "worn the same outfit two days in a row on purpose",
     "eaten dessert before dinner", "skipped a meal just to save calories for drinking",
     "gone to a concert alone", "fallen in love at first sight",
     "had a friendship end over something small", "been the third wheel and hated it",
     "pretended to laugh at a joke that wasn't funny", "spent more than an hour picking an outfit",
-    "cried because I was hungry", "had a really embarrassing autocorrect fail",
+    "cried because you were hungry", "had a really embarrassing autocorrect fail",
     "told a white lie to avoid a plan", "binge-watched a show in one sitting",
     "shown up to an event in the completely wrong outfit", "left the house with mismatched shoes",
-    "forgotten I already told someone a story", "taken a nap that ruined my whole night's sleep",
+    "forgotten you already told someone a story", "taken a nap that ruined your whole night's sleep",
     "accidentally called a teacher or boss 'mom' or 'dad'",
-    "had a crush on someone way older or younger than me",
+    "had a crush on someone way older or younger than you",
     "gotten way too competitive over a board game", "cried at an award show",
-    "pretended to be busy on a night I had nothing to do",
-    "gone through with a plan I regretted the whole time",
+    "pretended to be busy on a night you had nothing to do",
+    "gone through with a plan you regretted the whole time",
     "sent flirty texts to the wrong chat", "laughed at a funeral by accident",
-    "made a scene in public over something small", "gone a full day without checking my phone",
-    "had a secret handshake with a friend", "pretended to know a language I don't speak",
-    "stayed friends with someone I probably shouldn't have",
+    "made a scene in public over something small", "gone a full day without checking your phone",
+    "had a secret handshake with a friend", "pretended to know a language you don't speak",
+    "stayed friends with someone you probably shouldn't have",
     "shown up somewhere on the completely wrong day", "kept a pet's death a secret from someone",
     "eaten something after the expiration date on purpose", "fallen asleep during a movie in theaters",
-    "had a crush on my best friend's partner", "cried tears of laughter until it hurt",
+    "had a crush on your best friend's partner", "cried tears of laughter until it hurt",
 ]
 never_templates = [
-    "Never have I ever {s}. Everyone who has, drinks 2 sips.",
-    "Never have I ever {s}. If you have, take 3 sips.",
+    "Have you ever {s}? If you have, take {n} sip{s2}.",
+    "Have you ever {s}? If you have not, take {n} sip{s2}.",
 ]
 for s in never_statements:
-    for t in never_templates:
-        add(t.format(s=s), "neverhave")
+    for i, t in enumerate(never_templates):
+        n = 2 if i == 0 else 3
+        s2 = "s" if n != 1 else ""
+        add(t.format(s=s, n=n, s2=s2), "neverhave")
 
 # ---------------------------------------------------------------------------
 # 5. Dares / light truths (non-hazardous, party-appropriate)
