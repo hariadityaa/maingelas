@@ -4,16 +4,16 @@
   const STORAGE_KEY = "picolo:players";
 
   const CATEGORY_META = {
-    drink: { label: "Drink", color: "var(--cat-drink)" },
-    give: { label: "Give", color: "var(--cat-give)" },
-    group: { label: "Group", color: "var(--cat-group)" },
-    category: { label: "Category", color: "var(--cat-category)" },
-    neverhave: { label: "Never Have I Ever", color: "var(--cat-neverhave)" },
-    rule: { label: "New Rule", color: "var(--cat-rule)" },
-    dare: { label: "Dare", color: "var(--cat-dare)" },
-    special: { label: "Special", color: "var(--cat-special)" },
-    versus: { label: "Versus", color: "var(--cat-versus)" },
-    vote: { label: "Vote", color: "var(--cat-vote)" },
+    drink: { label: "Drink" },
+    give: { label: "Give" },
+    group: { label: "Group" },
+    category: { label: "Category" },
+    neverhave: { label: "Never have I ever" },
+    rule: { label: "New rule" },
+    dare: { label: "Dare" },
+    special: { label: "Special" },
+    versus: { label: "Versus" },
+    vote: { label: "Vote" },
   };
 
   const ROUND_SIZE = 50;
@@ -184,10 +184,9 @@
     lastUsedPlayer = null;
     roundEndPending = false;
     updateProgress();
-    cardCategoryEl.textContent = "READY";
-    cardEl.style.setProperty("--card-color", "var(--accent-2)");
-    cardTextEl.innerHTML = "Tap “Deal First Card” to begin.";
-    nextBtn.textContent = "Deal First Card";
+    cardCategoryEl.textContent = "Ready";
+    cardTextEl.innerHTML = "Tap “Deal first card” to begin.";
+    nextBtn.textContent = "Deal first card";
     showScreen("game");
   }
 
@@ -209,13 +208,12 @@
     }
 
     const q = deck[deckIndex];
-    const meta = CATEGORY_META[q.category] || { label: "Card", color: "var(--accent-2)" };
+    const meta = CATEGORY_META[q.category] || { label: "Card" };
     const text = fillTemplate(q.text, q.players || 0);
 
-    cardCategoryEl.textContent = meta.label.toUpperCase();
-    cardEl.style.setProperty("--card-color", meta.color);
+    cardCategoryEl.textContent = meta.label;
     cardTextEl.textContent = text;
-    nextBtn.textContent = "Next Card";
+    nextBtn.textContent = "Next card";
 
     cardEl.classList.remove("deal-in");
     // force reflow to restart animation
@@ -232,9 +230,9 @@
 
   function showRoundEndScreen() {
     const roundNum = Math.floor(deckIndex / ROUND_SIZE) + 1;
-    roundEndTitle.textContent = "Round " + roundNum + " Done";
+    roundEndTitle.textContent = "Round " + roundNum + " done";
     roundEndTagline.textContent = ROUND_SIZE + " questions down. Refill your drinks.";
-    nextRoundBtn.textContent = "Start Round " + (roundNum + 1);
+    nextRoundBtn.textContent = "Start round " + (roundNum + 1);
     showScreen("roundEnd");
   }
 
