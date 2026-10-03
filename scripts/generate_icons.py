@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""Generates PWA icons (cocktail glass mark on the app's brand gradient).
+"""Generates PWA icons (cocktail glass mark, Mono Dark: flat surface, hairline border).
 
 Renders at 4x supersample and downsamples for clean anti-aliasing.
 Content stays within the center ~70% so the same file works as a
 maskable icon (Android crops adaptive icons to its own shape).
 """
-import numpy as np
 from PIL import Image, ImageDraw
 
 SCALE = 4
@@ -15,11 +14,13 @@ SIZES = {
     "apple-touch-icon.png": 180,
 }
 
-PINK = (255, 95, 158)
-PURPLE = (124, 92, 255)
-WHITE = (245, 242, 255)
-LIQUID = (255, 182, 72)
-GARNISH = (255, 95, 158)
+BG = (10, 10, 10)
+BORDER = (58, 58, 58)
+FG = (237, 237, 237)
+MUTED = (161, 161, 161)
+WHITE = FG
+LIQUID = MUTED
+GARNISH = FG
 
 
 def draw_icon(size):
@@ -27,20 +28,13 @@ def draw_icon(size):
     img = Image.new("RGBA", (s, s), (0, 0, 0, 0))
     draw = ImageDraw.Draw(img)
 
-    # Diagonal gradient background, rounded square.
-    yy, xx = np.mgrid[0:s, 0:s]
-    t = (xx + yy) / (2 * s)
-    pink = np.array(PINK)
-    purple = np.array(PURPLE)
-    grad_arr = (pink[None, None, :] + (purple - pink)[None, None, :] * t[:, :, None]).astype("uint8")
-    grad = Image.fromarray(grad_arr, "RGB")
-
-    mask = Image.new("L", (s, s), 0)
-    mdraw = ImageDraw.Draw(mask)
+    # Flat rounded square with a hairline border.
     radius = int(s * 0.22)
-    mdraw.rounded_rectangle([0, 0, s - 1, s - 1], radius=radius, fill=255)
-    img.paste(grad, (0, 0), mask)
-    draw = ImageDraw.Draw(img)
+    draw.rounded_rectangle([0, 0, s - 1, s - 1], radius=radius, fill=BORDER)
+    inset = max(2, int(s * 0.006))
+    draw.rounded_rectangle(
+        [inset, inset, s - 1 - inset, s - 1 - inset], radius=radius - inset, fill=BG
+    )
 
     cx = s / 2
     cup_top_y = s * 0.30
